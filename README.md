@@ -1,5 +1,7 @@
-# DevDuh 
-## Code smarter not harder. Over 1000 Resources for web developers. It's a no brainer...duh!
+# DevDuh!
+## Code smarter not harder. Over 1000 Resources for web developers. 
+
+## Less searching...More Learning...Duh!
 
 ### Summary
 
