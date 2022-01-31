@@ -1,5 +1,5 @@
 # DevDuh!
-## Code smarter not harder. Over 1000 Resources for web developers. 
+## Code smarter not harder. 1000+ resources for web developers. 
 
 ## Less searching...More Learning...Duh!
 
@@ -7,7 +7,7 @@
 
 I've been coding for a little over a year and I've barely scratched the surface of all there is to know about web development. Learning to code takes practice...a lot of practice. I'm talking hours and hours in front of a computer researching: libraries, frameworks, scripts, back-end, front-end, functions, loops, variables, elements, classes, objects, algorithms & abbreviations: html, css, js, json, dom, api, mvc, mvp, oop, orm, pwa, sql, npm, git, cli… And the list goes on. 
 
-It’s taken me a year just to understand the basics, but you don't have to be an expert engineer to build a functional application...just expect to spend a few late nights banging your head against the keyboard. Part of being a good developer is just knowing where to look, and having the right resources at your fingertips. I've just spent the last year scowering the internet and let's just say I broke a few keyboards along the way. There are so many free open-source tools, apps, extensions, plug-ins, packages, templates, boiler plates, reposit  lot of free tools don't worry about being the smartest person in the room. Odds are the answer is already out there for you. A free, opensource, resource, tools, resources,  A lot of the work is already done for you. Don't waste your time writing to code. Spend time researching the theories and principle, and learning the fundamentals.   
+It’s taken me a year just to understand the basics, but you don't have to be an expert engineer to build a functional application...just expect to spend a few late nights banging your head against the keyboard. Part of being a good developer is just knowing where to look, and having the right resources at your fingertips. I've just spent the last year searching the internet, so you don't have to go through the same headache. There are so many free open-source tools, apps, extensions, plug-ins, widgets, converters, generators, packages, templates, boiler plates, and repositories lot of free tools don't worry about being the smartest person in the room. Odds are the answer is already out there for you. A free, opensource, resource, tools, resources,  A lot of the work is already done for you. Don't waste your time writing to code. Spend time researching the theories and principle, and learning the fundamentals.   
 
 
 haMy point is lot of time and research has gone into this is no end to what you can find 
