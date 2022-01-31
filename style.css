@@ -118,6 +118,7 @@ section {
 nav ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
@@ -232,13 +233,14 @@ address {
   padding: 10px 20px 30px 10px;
 }
 aside > div {
-  margin: 10px;
+  margin: 20px;
   background: rgb(2, 16, 36);
-  min-height: 150px;
+  min-height: 20px;
+  width: 250px;
   padding: 30px 10px;
   text-align: center;
   color: #fff;
-  line-height: 10;
+  
 }
 
 #logo {
