@@ -98,11 +98,32 @@ a {
 
 }
 
+#page:hover{
+  background: rgb(2, 16, 36);
+
+}
+
+a:hover{
+ color: rgb(2, 16, 36);
+ background: rgb(232, 229, 229);
+}
+
+#devdum {
+  width: 50px;
+  display: block;
+  float: right;
+  margin-bottom: 30px;
+  
+
+}
+
+
+
 h3 {
   font-size: 18px;
 }
 h4 {
-  font-size: 16px;
+  font-size: 14px;
 }
 article,
 aside,
@@ -213,16 +234,26 @@ nav ul li {
 nav ul {
   list-style: none;
 }
+
+
+
 article {
   border-bottom: 2px dotted #fff;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  color: rgb(232, 229, 229);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: rgb(210, 206, 206);
   font-size: 18px;
 }
+
+p {
+font-size: 16px;
+
+}
+
 article h2 {
   font-weight: normal;
-  margin-bottom: 12px;
+  padding-bottom: 10px;
+  
 }
 footer {
   background: rgb(2, 16, 36);
@@ -240,10 +271,11 @@ address {
 }
 aside > div {
   margin: 20px;
+  margin-left: 33px;
   background: rgb(2, 16, 36);
-  min-height: 15px;
-  width: 250px;
-  padding: 30px 5px;
+  min-height: 20px;
+  width: 150px;
+  padding: 20px 45px;
   text-align: center;
   color: rgb(232, 229, 229);
   
@@ -253,13 +285,13 @@ aside > div {
     text-align: center;
     margin-left: 18px;;
     text-shadow:#000;
-    font-size: 40px;
+    font-size: 35px;
     color:rgb(203, 202, 202);
     font-weight: bold;
    text-shadow: black ;
     text-align: center;
     line-height: 27px;
-    padding: 20px 5px;
+    padding: 15px 3px;
   }
 
   h4 {
@@ -286,11 +318,12 @@ body > section {
 }
 #sidebar a.back2Top {
   text-decoration: none; 
+  justify-content: center;
   text-align: center;
   background: rgb(5, 39, 85);
   color: rgb(232, 229, 229);
   font-weight: bold;
-  padding: 5px;
+  padding-left: 10px;
   display: block;
 }
 #sidebar a.back2Top:hover {
@@ -415,7 +448,7 @@ footer a {
 }
 .stick #sidebarContent {
   position: fixed;
-  z-index: 900;
+  z-index: 1400;
   bottom: 0px;
 }
 #stick-here {
