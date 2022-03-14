@@ -79,20 +79,22 @@ video {
 
 body {
   line-height: 1;
-  font-family: arial;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 h1 {
-  font-size: 25px;
+  font-size: 27px;
 }
 h2 {
   font-size: 21px;
-  color: #fff;
+  color: rgb(232, 229, 229);
 }
 
 a {
   
   font-size: 21px;
-  color: #fff;
+  font-weight: bold;
+  color: rgb(232, 229, 229);
 
 }
 
@@ -176,43 +178,47 @@ html {
   background-color: rgb(2, 16, 36);
 }
 header {
-  background: rgb(5, 39, 85);;
+  background: rgb(5, 39, 85);
   padding: 10px 30px;
-  margin: auto;
+  margin-top: auto;
   position: fixed;
+  line-height: 1;
   left: 0;
   right: 0;
   top: 0;
   z-index: 999;
-  height: 40px;
+  height: 50px;
 }
 nav {
   display: inline-block;
 }
 nav ul li a {
-  background: #fff;
-  padding: 2px 6px;
-  font-size: 14px;
+  background: rgb(2, 16, 36);
+  padding: 6px 8px;
+  font-size: 18px;
   text-decoration: none;
   font-weight: bold;
-  color: rgb(2, 16, 36);
-  border-radius: 5px;
+  color: rgb(232, 229, 229);
+ 
 }
 nav ul li a:hover {
-  color: #000;
+  background: rgb(232, 229, 229);
+  color: rgb(2, 16, 36);
 }
 nav ul li {
   display: inline-block;
-  margin: 10px;
+  margin: 5px;
+  margin-top: 15px;
 }
 nav ul {
   list-style: none;
 }
 article {
   border-bottom: 2px dotted #fff;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  color: #fff;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  color: rgb(232, 229, 229);
+  font-size: 18px;
 }
 article h2 {
   font-weight: normal;
@@ -227,7 +233,7 @@ footer {
 }
 footer p {
   padding: 20px;
-  color: #fff;
+  color:rgb(232, 229, 229);
 }
 address {
   padding: 10px 20px 30px 10px;
@@ -235,29 +241,29 @@ address {
 aside > div {
   margin: 20px;
   background: rgb(2, 16, 36);
-  min-height: 20px;
+  min-height: 15px;
   width: 250px;
-  padding: 30px 10px;
+  padding: 30px 5px;
   text-align: center;
-  color: #fff;
+  color: rgb(232, 229, 229);
   
 }
 
 #logo {
     text-align: center;
+    text-shadow:#000;
     font-size: 40px;
-    color: #fff;
+    color:rgb(232, 229, 229);
     font-weight: bold;
-    text-decoration: none;
+   text-shadow: black ;
     text-align: center;
-    line-height: 30px;
+    line-height: 27px;
     padding: 20px 5px;
-
   }
 
   h4 {
     text-align: center;
-    color: #fff;
+    color: rgb(232, 229, 229);
 
 
 }
@@ -271,23 +277,24 @@ body > section {
 }
 #sidebarBackTop {
   background: #286983;
-  color: #fff;
+  color: rgb(232, 229, 229);
   opacity: 0.8;
   cursor: pointer;
   display: block;
   padding: 5px;
 }
 #sidebar a.back2Top {
-  text-decoration: none;
+  text-decoration: none; 
   text-align: center;
   background: rgb(5, 39, 85);
-  color: #fff;
+  color: rgb(232, 229, 229);
   font-weight: bold;
   padding: 5px;
   display: block;
 }
 #sidebar a.back2Top:hover {
-  background: rgb(5, 39, 85);
+  background:rgb(2, 16, 36);
+  color: rgb(232, 229, 229)
 }
 #sidebarContent {
   width: 300px;
@@ -295,7 +302,7 @@ body > section {
   padding: 10px;
 }
 footer a {
-  color: #fff;
+  color: rgb(232, 229, 229);
 }
 #main {
   margin-left: 320px;
@@ -335,7 +342,7 @@ footer a {
 
 #menuToggle,
 #mobileMenuToggle {
-  background: #fff;
+  background: rgb(2, 16, 36);
   cursor: pointer;
   display: inline-block;
   font-size: 40px;
@@ -344,8 +351,8 @@ footer a {
   text-align: center;
   height: 40px;
   line-height: 40px;
-  color: rgb(2, 16, 36);
-  border-radius: 10px;
+  color: rgb(232, 229, 229);
+  
 }
 #mobileMenuToggle,
 #mobileLogo {
@@ -354,8 +361,8 @@ footer a {
   font-size: 30px;
 }
 #menuToggle:hover {
-  color: #fff;
-  background: #344;
+  color: rgb(2, 16, 36);
+  background:  rgb(232, 229, 229)
 }
 .socialButtons {
   float: right;
@@ -377,7 +384,7 @@ footer a {
   border-radius: 5px;
   vertical-align: middle;
 }
-.socialButtons a.linkedin {
+.socialButtons a.email{
   background: #24568e;
 }
 .socialButtons a.youtube {
@@ -437,8 +444,8 @@ footer a {
     padding: 10px;
   }
   .sidebarToggle #menuToggle {
-    background: #344;
-    color: #fff;
+    background: rgb(2, 16, 36);
+    color: rgb(2, 16, 36)
   }
 }
 @media screen and (max-width: 600px) {
@@ -460,7 +467,7 @@ footer a {
   nav ul li a {
     display: block;
     background: transparent;
-    color: #fff;
+    color:rgb(2, 16, 36);
     text-align: center;
     font-size: 16px;
     padding: 3px 29px;
