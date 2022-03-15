@@ -99,7 +99,7 @@ a {
 }
 
 #page:hover{
-  background: rgb(2, 16, 36);
+  background: transparent;
 
 }
 
@@ -448,7 +448,6 @@ footer a {
 }
 .stick #sidebarContent {
   position: fixed;
-  z-index: 1400;
   bottom: 0px;
 }
 #stick-here {
