@@ -243,6 +243,7 @@ article {
   margin-bottom: 10px;
   color: rgb(210, 206, 206);
   font-size: 18px;
+  /* padding-left: 20px; */
 }
 
 p {
@@ -370,6 +371,7 @@ footer a {
 #sidebar {
   float: left;
   position: absolute;
+  box-shadow: -2px 2px 20px rgba(#000, 0.5);
 
 }
 #page {
@@ -383,7 +385,7 @@ footer a {
   padding: 3px 1px 0px 1px;
   line-height: 40px;
   color: rgb(232, 229, 229);
-  font-size: 60px;
+  font-size: 50px;
   width: 40px;
   height: 40px;
 
@@ -407,7 +409,7 @@ footer a {
 #mobileLogo {
   vertical-align: middle;
   display: none;
-  font-size: 30px;
+  font-size: 20px;
 
 }
 
@@ -415,37 +417,7 @@ footer a {
   color: rgb(2, 16, 36);
   background:  rgb(232, 229, 229)
 }
-.socialButtons {
-  float: right;
-  padding-top: 8px;
-}
-.socialButtons a {
-  display: inline-block;
-  cursor: pointer;
-  background: #0570e6;
-  padding: 2px;
-  width: 33px;
-  text-align: center;
-  height: 20px;
-  font-weight: bold;
-  color: #fff;
-  text-decoration: none;
-  line-height: 20px;
-  font-size: 20px;
-  border-radius: 5px;
-  vertical-align: middle;
-}
-.socialButtons a.email{
-  background: #24568e;
-}
-.socialButtons a.youtube {
-  background: #c00;
-}
-.socialButtons a svg {
-  width: 16px;
-  height: 16px;
-  fill: #fff;
-}
+
 .stick #sidebarContent {
   position: fixed;
   bottom: 0px;
@@ -467,7 +439,7 @@ footer a {
     width: auto;
   }
   #headerRight {
-    width: 60%;
+  float: right;
   }
 }
 @media screen and (max-width: 820px) {
@@ -495,7 +467,7 @@ footer a {
   }
   .sidebarToggle #menuToggle {
     background: rgb(2, 16, 36);
-    color: rgb(2, 16, 36)
+    color: rgb(232, 229, 229);
   }
 }
 @media screen and (max-width: 600px) {
@@ -507,7 +479,7 @@ footer a {
     position: absolute;
     width: auto;
     top: 46px;
-    background: #6f9898;
+    background: rgb(5,39,85);
     left: 0;
     display: none;
   }
@@ -517,15 +489,16 @@ footer a {
   nav ul li a {
     display: block;
     background: transparent;
-    color:rgb(2, 16, 36);
+    color:rgb(232, 229, 229);
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: bold;
     padding: 3px 29px;
     line-height: 25px;
   }
   .showMobileMenu #mobileMenuToggle {
-    background: #344;
-    color: #fff;
+    background: rgb(5, 39, 85);
+  color: rgb(232, 229, 229);
   }
   nav ul li {
     display: block;
@@ -545,14 +518,14 @@ footer a {
   }
   #sidebarContent {
     right: 0;
-    background: #6f9898;
+    background: rgb(5,39,85);;
   }
   #mobileLogo {
     display: inline-block;
     font-size: 17px;
     padding: 0 3px 0 10px;
     font-weight: bold;
-    color: #fff;
+    color: rgb(232,229,229);
     text-decoration: none;
   }
   #mobileMenuToggle {
