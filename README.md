@@ -1,6 +1,6 @@
 # DevDum!
 
-### Code smarter not harder. Over 100+ resources for web developers. 
+### Code smarter not harder with over 100+ resources for web developers. 
 
 ### Summary
 
