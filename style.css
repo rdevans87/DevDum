@@ -136,6 +136,7 @@ menu,
 nav,
 section {
   display: block;
+  
 }
 nav ul {
   list-style: none;
@@ -238,12 +239,12 @@ nav ul {
 
 
 article {
-  border-bottom: 3px dotted rgb(5, 39, 85);;
+  border-bottom: 2px solid rgb(5, 39, 85);
   padding-bottom: 10px;
   margin-bottom: 10px;
   color: rgb(210, 206, 206);
   font-size: 18px;
-  /* padding-left: 20px; */
+  /* padding-left: 5px; */
 }
 
 p {
@@ -271,11 +272,11 @@ address {
   padding: 10px 20px 30px 10px;
 }
 aside > div {
-  margin: 20px;
-  margin-left: 30px;
+  margin: 12px;
+  margin-left: 27px;
   background: rgb(2, 16, 36);
   min-height: 20px;
-  width: 150px;
+  width: 120px;
   padding: 20px 45px;
   text-align: center;
   color: rgb(232, 229, 229);
@@ -284,28 +285,30 @@ aside > div {
 
 #logo {
     text-align: center;
-    margin: 15px;
+    margin-top: 15px;
+    margin-left: 3px;
     text-shadow:#000;
     font-size: 35px;
     color:rgb(242, 240, 240);
     font-weight: bold;
    text-shadow: black ;
-    text-align: center;
     line-height: 27px;
     padding: 15px 3px;
-    padding-left: 17px;
-    background: rgb(2, 16, 36)
+    padding-left: 15px;
+    background: rgb(2, 16, 36);
   }
 
   h4 {
-    text-align: center;
-    padding-left: 6px;
+    text-align:left;
+    padding-top: 12px;
+    padding-left: 8px;
     color: rgb(232, 229, 229);
 
 }
 
 body > section {
   max-width: 1000px;
+  margin-left: 0;
   margin: auto;
   padding: 30px 0px;
   border-bottom: 1px solid #999;
@@ -334,15 +337,17 @@ body > section {
   color: rgb(232, 229, 229)
 }
 #sidebarContent {
-  width: 300px;
+  width: 270px;
   background: rgb(5, 39, 85);
   padding: 10px;
+ 
+  
 }
 footer a {
   color: rgb(232, 229, 229);
 }
 #main {
-  margin-left: 320px;
+  margin-left: 290px;
 }
 #wrapall {
   padding-top: 60px;
@@ -546,6 +551,7 @@ footer a {
     padding: 0 3px 0 10px;
     font-weight: bold;
     text-align: center;
+    margin-top: 5px;
     color: rgb(232,229,229);
     text-decoration: none;
     background:rgb(2, 16, 36);
