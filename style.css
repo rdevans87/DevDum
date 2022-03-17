@@ -273,7 +273,7 @@ address {
 }
 aside > div {
   margin: 12px;
-  margin-left: 27px;
+  margin-left: 29px;
   background: rgb(2, 16, 36);
   min-height: 20px;
   width: 120px;
@@ -301,7 +301,7 @@ aside > div {
   h4 {
     text-align:left;
     padding-top: 12px;
-    padding-left: 8px;
+    padding-left: 12px;
     color: rgb(232, 229, 229);
 
 }
@@ -347,7 +347,8 @@ footer a {
   color: rgb(232, 229, 229);
 }
 #main {
-  margin-left: 290px;
+  margin-left: 285px;
+  margin-right: 0px;
 }
 #wrapall {
   padding-top: 60px;
