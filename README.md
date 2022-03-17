@@ -11,7 +11,9 @@ If you're like me...then you don't have all the time in the world to devote to w
 Do your best to learn the fundamentals, but don't worry about being the smartest developer in the room. The dev community runs deep and there is a lot to explore. DevDum will save you countless hours searching the web, so you can focus on developing whatever crazy idea you've got in your head. Just remember the DevDum rule of thumb: Code Smarter Not Harder. 
 
 
-Take advantage of all the free & open source options available on the internet: code snippets, cheat sheets, static websites, even fully developed applications ready to deploy. You'll be surprised what you can find, and what's already been built for you to use. DevDum contains all the resources needed for developing a fullstack web application. Hopefully, DevDum saves you some of the headache along the way. If there's anything else you want to know, you'll have to find it on your own, but if you do discover something cool, please tell me about it!
+Take advantage of all the free & open source options available on the internet: code snippets, cheat sheets, static websites, even fully developed applications ready to deploy. You'll be surprised what you can find, and what's already been built for you to use. DevDum contains all the resources needed for developing a fullstack web application. Hopefully, DevDum saves you some of the headache along the way. If there's anything else you want to know, you'll have to find it on your own, but if you do discover something cool, please tell me about it! 
+
+Contact me. Adn give this repo a star this repo and share if you like DevDum!
 
 
 

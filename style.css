@@ -118,7 +118,6 @@ a:hover{
 }
 
 
-
 h3 {
   font-size: 18px;
 }
@@ -273,7 +272,7 @@ address {
 }
 aside > div {
   margin: 20px;
-  margin-left: 33px;
+  margin-left: 30px;
   background: rgb(2, 16, 36);
   min-height: 20px;
   width: 150px;
@@ -285,7 +284,7 @@ aside > div {
 
 #logo {
     text-align: center;
-    margin-left: 18px;;
+    margin: 15px;
     text-shadow:#000;
     font-size: 35px;
     color:rgb(242, 240, 240);
@@ -294,12 +293,14 @@ aside > div {
     text-align: center;
     line-height: 27px;
     padding: 15px 3px;
+    padding-left: 17px;
+    background: rgb(2, 16, 36)
   }
 
   h4 {
     text-align: center;
+    padding-left: 6px;
     color: rgb(232, 229, 229);
-
 
 }
 
@@ -413,7 +414,7 @@ footer a {
   vertical-align: middle;
   display: none;
   font-size: 20px;
-
+  
 }
 
 #menuToggle:hover {
@@ -454,20 +455,35 @@ footer a {
     margin-left: 0;
   }
   .sidebarToggle #sidebar {
-    background: red;
+    background: rgb(2, 16, 36);
     display: block;
+    
   }
   .stick #sidebarContent {
     bottom: auto;
+    position: fixed;
+  ;
+    
   }
   a#logo {
     font-size: 20px;
     line-height: 20px;
     padding: 10px 5px;
+   
   }
+
   aside > div {
     min-height: 20px;
     padding: 10px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 27px;
+    background: rgb(2, 16, 36);
+    min-height: 20px;
+    width: 150px;
+    padding: 20px 45px;
+    text-align: center;
+    color: rgb(232, 229, 229);
   }
   .sidebarToggle #menuToggle {
     background: rgb(2, 16, 36);
@@ -501,8 +517,8 @@ footer a {
     line-height: 25px;
   }
   .showMobileMenu #mobileMenuToggle {
-    background: rgb(5, 39, 85);
-  color: rgb(232, 229, 229);
+    background: rgb(2, 16, 36);
+     color: rgb(232, 229, 229);
   }
   nav ul li {
     display: block;
@@ -522,17 +538,26 @@ footer a {
   }
   #sidebarContent {
     right: 0;
-    background: rgb(5,39,85);;
+    background: rgb(5,39,85);
   }
   #mobileLogo {
     display: inline-block;
     font-size: 17px;
     padding: 0 3px 0 10px;
     font-weight: bold;
+    text-align: center;
     color: rgb(232,229,229);
     text-decoration: none;
+    background:rgb(2, 16, 36);
+   
   }
   #mobileMenuToggle {
     display: inline-block;
+    background:rgb(2, 16, 36);
+    width: 100px;
+  }
+ 
+  
+    
   }
 }
