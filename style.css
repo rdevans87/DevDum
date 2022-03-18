@@ -79,14 +79,15 @@ video {
 
 body {
   line-height: 1;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Press Start 2P', cursive;
+  /* font-family: 'Courier New', Courier, monospace; */
   font-weight: bold;
 }
 h1 {
-  font-size: 27px;
+  font-size: 17px;
 }
 h2 {
-  font-size: 21px;
+  font-size: 14px;
   color: rgb(232, 229, 229);
 }
 
@@ -109,7 +110,7 @@ a:hover{
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 12px;
 }
 h4 {
   font-size: 14px;
@@ -207,7 +208,7 @@ nav {
 nav ul li a {
   background: rgb(2, 16, 36);
   padding: 6px 8px;
-  font-size: 18px;
+  font-size: 12px;
   text-decoration: none;
   font-weight: bold;
   color: rgb(232, 229, 229);
@@ -229,21 +230,25 @@ nav ul {
 
 article {
   border-bottom: 2px solid rgb(5, 39, 85);
+  padding-top: 12px;
+  margin-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: rgb(210, 206, 206);
   font-size: 18px;
   /* padding-left: 5px; */
 }
 
 p {
-font-size: 15px;
+font-size: 10px;
 
 }
 
 article h2 {
   font-weight: normal;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  padding-top: 0px;
   
 }
 footer {
@@ -262,20 +267,33 @@ address {
 }
 aside > div {
   margin: 12px;
-  margin-left: 18px;
   background: rgb(2, 16, 36);
   min-height: 20px;
-  width: 120px;
+  width: 69px;
   padding: 15px 60px;
+  padding-top: 20px;
   text-align: center;
   color: rgb(232, 229, 229);
   
 }
 
-#logo {
+#devdum {
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: .5px 20px;
+  margin-top: 10px; 
+  margin-right: 5px;
+
+ 
+ }
+
+
+/* #logo {
     text-align: center;
     margin-top: 15px;
-    margin-left: 3px;
     text-shadow:#000;
     font-size: 35px;
     color:rgb(242, 240, 240);
@@ -285,15 +303,18 @@ aside > div {
     padding: 15px 3px;
     padding-left: 15px;
     background: rgb(2, 16, 36);
-  }
+  } */
 
   h4 {
     text-align:left;
     padding-top: 12px;
-    padding-left: 12px;
     color: rgb(232, 229, 229);
+    line-height: 1px;
+    
 
 }
+
+
 
 body > section {
   max-width: 1000px;
@@ -304,6 +325,7 @@ body > section {
   color: #333;
 }
 #sidebarBackTop {
+  
   background: #286983;
   color: rgb(232, 229, 229);
   opacity: 0.8;
@@ -320,23 +342,25 @@ body > section {
   font-weight: bold;
   padding-left: 10px;
   display: block;
+  font-size: 10px;
 }
 #sidebar a.back2Top:hover {
   background:rgb(2, 16, 36);
   color: rgb(232, 229, 229)
 }
 #sidebarContent {
-  width: 270px;
+  width: 200px;
   background: rgb(5, 39, 85);
-  padding: 10px;
- 
+  padding-right: 18px;
+  padding-left: 8px;
+  padding-top: 200px;
   
 }
 footer a {
   color: rgb(232, 229, 229);
 }
 #main {
-  margin-left: 285px;
+  margin-left: 235px;
   margin-right: 0px;
 }
 #wrapall {
@@ -349,7 +373,7 @@ footer a {
 }
 #wrapall,
 #header {
-  max-width: 1100px;
+  max-width: 1050px;
   margin: 0;
 }
 #headerLeft,
@@ -373,21 +397,20 @@ footer a {
   box-shadow: -2px 2px 20px rgba(#000, 0.5);
 
 }
-#page {
-  padding: 20px;
-}
+
 
 #menuToggle {
   width: 60px;
   background: rgb(2, 16, 36);
   cursor: pointer;
-  padding: 3px 1px 0px 1px;
-  line-height: 40px;
+  padding: 0px 1px 1px 2px;
+  line-height: 10px;
   color: rgb(232, 229, 229);
-  font-size: 48px;
+  font-size: 70px;
   width: 40px;
   height: 40px;
   margin-top: 3px;
+  margin-left: 9px;
 
 }
 
@@ -430,7 +453,7 @@ footer a {
   display: none;
 }
 .sidebarToggle #main {
-  margin-left: 0;
+  margin-left: 0px;
 }
 @media screen and (max-width: 1100px) {
   header {
@@ -448,7 +471,8 @@ footer a {
     display: none;
   }
   #main {
-    margin-left: 0;
+    margin-left: 13px;
+    margin-right: 0px;
   }
   .sidebarToggle #sidebar {
     background: rgb(2, 16, 36);
@@ -458,9 +482,16 @@ footer a {
   .stick #sidebarContent {
     bottom: auto;
     position: fixed;
-  ;
-    
+    padding-left: 5px;
+  
   }
+
+ #devdum { 
+   padding-left: 5px;
+ }
+
+;
+
   a#logo {
     font-size: 20px;
     line-height: 20px;
@@ -470,11 +501,11 @@ footer a {
 
   aside > div {
     min-height: 20px;
-    margin: 20px;
+    margin: 10px;
     background: rgb(2, 16, 36);
     min-height: 20px;
-    width: 150px;
-    padding: 20px 45px;
+    width: 100px;
+    padding: 12px 50px;
     text-align: center;
     color: rgb(232, 229, 229);
   }
@@ -532,12 +563,10 @@ footer a {
   #sidebarContent {
     right: 0;
     background: rgb(5,39,85);
-    padding-right: 20px;
   }
   #mobileLogo {
     display: inline-block;
     font-size: 17px;
-    padding: 0 3px 0 10px;
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
@@ -552,6 +581,8 @@ footer a {
     width: 100px;
     margin-top: 5px;
   };
+
+
  
   
     
