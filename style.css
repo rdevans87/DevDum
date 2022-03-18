@@ -79,12 +79,14 @@ video {
 
 body {
   line-height: 1;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P';
   /* font-family: 'Courier New', Courier, monospace; */
   font-weight: bold;
 }
 h1 {
   font-size: 17px;
+  text-decoration: underline;
+
 }
 h2 {
   font-size: 14px;
@@ -207,7 +209,7 @@ nav {
 }
 nav ul li a {
   background: rgb(2, 16, 36);
-  padding: 6px 8px;
+  padding: 8px 8px;
   font-size: 12px;
   text-decoration: none;
   font-weight: bold;
@@ -230,8 +232,8 @@ nav ul {
 
 article {
   border-bottom: 2px solid rgb(5, 39, 85);
-  padding-top: 12px;
-  margin-top: 10px;
+  /* padding-top: 12px; */
+  margin-top: 12px;
   padding-bottom: 10px;
   margin-bottom: 5px;
   color: rgb(210, 206, 206);
@@ -270,7 +272,7 @@ aside > div {
   background: rgb(2, 16, 36);
   min-height: 20px;
   width: 69px;
-  padding: 15px 60px;
+  padding: 15px 61px;
   padding-top: 20px;
   text-align: center;
   color: rgb(232, 229, 229);
@@ -332,6 +334,7 @@ body > section {
   cursor: pointer;
   display: block;
   padding: 5px;
+  
 }
 #sidebar a.back2Top {
   text-decoration: none; 
@@ -341,8 +344,9 @@ body > section {
   color: rgb(232, 229, 229);
   font-weight: bold;
   padding-left: 10px;
+  padding-bottom: 12px;
   display: block;
-  font-size: 10px;
+  font-size: 14px;
 }
 #sidebar a.back2Top:hover {
   background:rgb(2, 16, 36);
@@ -362,6 +366,7 @@ footer a {
 #main {
   margin-left: 235px;
   margin-right: 0px;
+  margin-top: 20px;
 }
 #wrapall {
   padding-top: 60px;
@@ -458,14 +463,21 @@ footer a {
 @media screen and (max-width: 1100px) {
   header {
     padding: 10px;
+    padding-bottom: 10px;
   }
   #headerLeft {
-    width: auto;
+    float: left;
   }
   #headerRight {
   float: right;
   }
 }
+
+#devdum {
+  left: 0;
+  top: 0; 
+ }
+
 @media screen and (max-width: 820px) {
   #sidebar {
     display: none;
@@ -482,22 +494,13 @@ footer a {
   .stick #sidebarContent {
     bottom: auto;
     position: fixed;
-    padding-left: 5px;
   
   }
 
- #devdum { 
-   padding-left: 5px;
- }
-
-;
-
-  a#logo {
-    font-size: 20px;
-    line-height: 20px;
-    padding: 10px 5px;
-   
-  }
+  #devdum {
+    left: 0;
+    top: 0; 
+   }
 
   aside > div {
     min-height: 20px;
@@ -505,18 +508,21 @@ footer a {
     background: rgb(2, 16, 36);
     min-height: 20px;
     width: 100px;
-    padding: 12px 50px;
+    padding: 10px 47px;
     text-align: center;
     color: rgb(232, 229, 229);
   }
   .sidebarToggle #menuToggle {
     background: rgb(2, 16, 36);
     color: rgb(232, 229, 229);
+
   }
 }
+
 @media screen and (max-width: 600px) {
   #headerLeft {
     float: right;
+    margin: 0px;
   }
   #headerRight {
     height: auto;
@@ -535,7 +541,7 @@ footer a {
     background: transparent;
     color:rgb(232, 229, 229);
     text-align: center;
-    font-size: 17px;
+    font-size: 12px;
     font-weight: bold;
     padding: 3px 29px;
     line-height: 25px;
@@ -543,6 +549,8 @@ footer a {
   .showMobileMenu #mobileMenuToggle {
     background: rgb(2, 16, 36);
      color: rgb(232, 229, 229);
+     float: right;
+     margin-right: 0px;
   }
   nav ul li {
     display: block;
@@ -552,21 +560,25 @@ footer a {
     display: none;
   }
   header {
-    padding: 3px 10px;
+    padding: 3px 12px;
   }
   #page {
-    padding: 20px 10px;
+    padding: 2px 2px;
   }
   #wrapall {
-    padding-top: 46px;
+    padding-top: 35px;
   }
   #sidebarContent {
     right: 0;
     background: rgb(5,39,85);
+    width: 200px;
+    bottom: 0;
+  
+
   }
   #mobileLogo {
     display: inline-block;
-    font-size: 17px;
+    font-size: 10px;
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
@@ -575,16 +587,18 @@ footer a {
     background:rgb(2, 16, 36);
    
   }
+
   #mobileMenuToggle {
     display: inline-block;
     background:rgb(2, 16, 36);
-    width: 100px;
+    width: 150px;
     margin-top: 5px;
-  };
-
-
+    font-size: 20px;
+    padding-left: 7px;
  
-  
+  };
+}
+
     
   
-}
+
