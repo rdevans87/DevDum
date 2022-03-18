@@ -108,16 +108,6 @@ a:hover{
  background: rgb(232, 229, 229);
 }
 
-#devdum {
-  width: 50px;
-  display: block;
-  float: right;
-  margin-bottom: 30px;
-  
-
-}
-
-
 h3 {
   font-size: 18px;
 }
@@ -230,13 +220,12 @@ nav ul li a:hover {
 nav ul li {
   display: inline-block;
   margin: 5px;
-  margin-top: 15px;
+  margin-top: 17px;
+  
 }
 nav ul {
   list-style: none;
 }
-
-
 
 article {
   border-bottom: 2px solid rgb(5, 39, 85);
@@ -248,7 +237,7 @@ article {
 }
 
 p {
-font-size: 16px;
+font-size: 15px;
 
 }
 
@@ -260,7 +249,7 @@ article h2 {
 footer {
   background: rgb(2, 16, 36);
   max-width: 1000px;
-  margin: 0 -20px;
+  margin: 0 -20px;;
   clear: both;
   text-align: right;
 }
@@ -273,11 +262,11 @@ address {
 }
 aside > div {
   margin: 12px;
-  margin-left: 29px;
+  margin-left: 18px;
   background: rgb(2, 16, 36);
   min-height: 20px;
   width: 120px;
-  padding: 20px 45px;
+  padding: 15px 60px;
   text-align: center;
   color: rgb(232, 229, 229);
   
@@ -395,9 +384,10 @@ footer a {
   padding: 3px 1px 0px 1px;
   line-height: 40px;
   color: rgb(232, 229, 229);
-  font-size: 50px;
+  font-size: 48px;
   width: 40px;
   height: 40px;
+  margin-top: 3px;
 
 }
 
@@ -480,10 +470,7 @@ footer a {
 
   aside > div {
     min-height: 20px;
-    padding: 10px;
-    text-align: center;
     margin: 20px;
-    margin-left: 27px;
     background: rgb(2, 16, 36);
     min-height: 20px;
     width: 150px;
@@ -545,6 +532,7 @@ footer a {
   #sidebarContent {
     right: 0;
     background: rgb(5,39,85);
+    padding-right: 20px;
   }
   #mobileLogo {
     display: inline-block;
@@ -552,7 +540,7 @@ footer a {
     padding: 0 3px 0 10px;
     font-weight: bold;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
     color: rgb(232,229,229);
     text-decoration: none;
     background:rgb(2, 16, 36);
@@ -562,6 +550,7 @@ footer a {
     display: inline-block;
     background:rgb(2, 16, 36);
     width: 100px;
+    margin-top: 5px;
   };
  
   
