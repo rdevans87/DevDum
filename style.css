@@ -477,10 +477,90 @@ footer a {
   
 };
 
-@media only screen 
-and (min-width : 768px) {
-  
- .nav-link1{
-display: hidden;
- }
+@media screen and (max-width: 920px) {
+
+  #headeRight{
+    float: right;
+  }
+  #headerRight {
+    height: auto;
+    position: absolute;
+    width: auto;
+    top: 46px;
+    background: #6f9898;
+    left: 0;
+    display: none;
+  };
+nav ul li a {
+  display: block;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  padding: 3px 29px;
+  line-height: 25px;
+}
+
+nav ul li {
+  display: block;
+  margin: 0;
+}
+
+}
+}
+
+@media screen and (max-width: 800px) {
+
+  #headerRight {
+    height: auto;
+    position: absolute;
+    width: auto;
+    left: 0;
+    display: none;
+  };
+nav ul li a {
+  display: block;
+  background: transparent;
+  font-size: 16px;
+  padding: 3px 29px;
+  line-height: 25px;
+}
+
+nav ul li {
+  display: block;
+  margin: 0;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+  #headeRight{
+    float: right;
+  }
+  #headerRight {
+    height: auto;
+    position: absolute;
+    width: auto;
+    top: 46px;
+    background: #6f9898;
+    left: 0;
+    display: none;
+  };
+nav ul li a {
+  display: block;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  padding: 3px 29px;
+  line-height: 25px;
+}
+
+nav ul li {
+  display: block;
+  margin: 0;
+}
+
+}
 }
