@@ -82,41 +82,54 @@ body {
   font-family: 'Press Start 2P';
   /* font-family: 'Courier New', Courier, monospace; */
   font-weight: bold;
+  
 }
-h1 {
-  font-size: 17px;
-  text-decoration: underline;
+h1{
+  font-size: 40px;
+  color: rgb(237, 177, 26);
+  font-weight: bold;
+  text-shadow: 1px rgb(28, 27, 27);
+  word-spacing: -8px; 
+  padding-left: 10px;
+  text-align: center;
+  padding-bottom: 2px;
+ 
+  
+}
 
-}
 h2 {
-  font-size: 14px;
+  font-size: 15px;
   color: rgb(232, 229, 229);
+  padding-left: 1px;
 }
 
 a {
-  
-  font-size: 21px;
+  font-size: 17px;
   font-weight: bold;
-  color: rgb(232, 229, 229);
 
-}
+ }
 
 #page:hover{
   background: transparent;
 
 }
 
-a:hover{
+/* a:hover{
  color: rgb(2, 16, 36);
  background: rgb(232, 229, 229);
-}
+} */
 
 h3 {
-  font-size: 12px;
-}
-h4 {
-  font-size: 14px;
-}
+  font-size: 15px;
+  color: rgb(237, 177, 26);
+  text-shadow: 1px rgb(28, 27, 27);
+  text-align: center;
+  text-shadow: 0px 0px 2px 0px rgb(237, 177, 26);
+
+
+};
+
+
 article,
 aside,
 details,
@@ -190,11 +203,12 @@ select {
 }
 body,
 html {
-  background-color: rgb(2, 16, 36);
+   /* background-color: rgb(2, 16, 36);  */
+   background-image: linear-gradient(to top, #031b48 0%, #021539 1%, #000d22 100%);
+  
 }
 header {
-  background: rgb(5, 39, 85);
-  padding: 10px 30px;
+  background: rgb(1, 24, 55);
   margin-top: auto;
   position: fixed;
   line-height: 1;
@@ -202,59 +216,88 @@ header {
   right: 0;
   top: 0;
   z-index: 999;
-  height: 50px;
+  height: 60px;
+ 
+
 }
 nav {
   display: inline-block;
+  margin-right: 20px;
+  /* box-shadow: 1px 1px 4px rgb(255, 187, 13); */
+  
 }
+
+
 nav ul li a {
   background: rgb(2, 16, 36);
-  padding: 8px 8px;
+  padding: 5px 3px 4px 4px;
   font-size: 12px;
   text-decoration: none;
   font-weight: bold;
-  color: rgb(232, 229, 229);
+  border-radius: 4px;
+  box-shadow: 4px 8px 4px rgba(7, 7, 7, 0.824);
+  text-shadow: 1px rgb(28, 27, 27);
+  
  
 }
-nav ul li a:hover {
-  background: rgb(232, 229, 229);
-  color: rgb(2, 16, 36);
+ nav ul li a:hover {
+box-shadow: 2px 4px 8px 4px #0d6efd;  
 }
+
 nav ul li {
-  display: inline-block;
-  margin: 5px;
-  margin-top: 17px;
+  display: flex;
+  margin: 3px;
+  margin-top: 20px;
   
 }
 nav ul {
   list-style: none;
 }
 
-article {
-  border-bottom: 2px solid rgb(5, 39, 85);
-  /* padding-top: 12px; */
-  margin-top: 12px;
-  padding-bottom: 10px;
+#yellow{
   margin-bottom: 5px;
-  color: rgb(210, 206, 206);
-  font-size: 18px;
-  /* padding-left: 5px; */
+  padding-bottom: 20px;
+ 
 }
 
+article{
+  /* background: transparent; */
+  line-height:  1.5;
+  padding: 5px 8px 8px;
+  border-radius: 4px;
+  width: 95%;
+  margin:0% 2.5%;
+  margin-top: 12px;
+  color: rgb(228, 226, 226);
+  background:rgb(1, 24, 55); 
+  box-shadow: 2px 4px 8px 4px rgba(7, 7, 7, 0.824);
+  text-shadow: 1px rgb(28, 27, 27);
+};
+
+article:hover {
+  box-shadow: 2px 4px 8px 4px #0d6efd;  
+  }
+
+
 p {
-font-size: 10px;
+font-size: 11px;
+text-shadow: 1px rgb(28, 27, 27);
+text-decoration:solid black; 
+padding-left: 5px;
+
 
 }
 
 article h2 {
-  font-weight: normal;
-  padding-bottom: 15px;
+  font-weight: bold;
   margin-top: 0px;
-  padding-top: 0px;
+  padding-bottom: 2px;
+  
+
   
 }
 footer {
-  background: rgb(2, 16, 36);
+  background: transparent;
   max-width: 1000px;
   margin: 0 -20px;;
   clear: both;
@@ -263,71 +306,81 @@ footer {
 footer p {
   padding: 20px;
   color:rgb(232, 229, 229);
+  font-size: 10px;
 }
 address {
   padding: 10px 20px 30px 10px;
 }
 aside > div {
-  margin: 12px;
+  margin-bottom: 10px;
+  margin-left: 8px;
   background: rgb(2, 16, 36);
   min-height: 20px;
-  width: 69px;
-  padding: 15px 61px;
-  padding-top: 20px;
+  width: 150px;
+  padding: 8px 30px;
   text-align: center;
   color: rgb(232, 229, 229);
-  
+  box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.363);
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px rgb(255, 187, 13);
 }
 
-#devdum {
-  float: left;
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 0;
-  padding: .5px 20px;
-  margin-top: 10px; 
-  margin-right: 5px;
-
- 
- }
-
-
-/* #logo {
-    text-align: center;
-    margin-top: 15px;
-    text-shadow:#000;
-    font-size: 35px;
-    color:rgb(242, 240, 240);
-    font-weight: bold;
-   text-shadow: black ;
-    line-height: 27px;
-    padding: 15px 3px;
-    padding-left: 15px;
-    background: rgb(2, 16, 36);
-  } */
 
   h4 {
-    text-align:left;
-    padding-top: 12px;
+    font-size: 12px;
+    text-align:center;
+    padding-top: 10px;
     color: rgb(232, 229, 229);
-    line-height: 1px;
+   
     
 
 }
 
 
+a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color:#0d6efd;
+  text-decoration: underline;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.15s, 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s, 0s;
+  /* text-shadow: 2px 2px 4px #0252cb */
+}
+
+.nav-link {
+
+  display: block;
+  padding: 0.5rem 1rem;
+  color:  #0d6efd;
+  text-decoration: solid black;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.15s, 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s, 0s;
+  
+
+
+
+};
+
+.nav-link:hover {
+  box-shadow: 2px 4px 8px 8px #0d6efd;
+};
+
 
 body > section {
   max-width: 1000px;
-  margin-left: 0;
   margin: auto;
-  padding: 30px 0px;
+  margin-left: 0px;
   border-bottom: 1px solid #999;
-  color: #333;
-}
-#sidebarBackTop {
   
+}
+
+#sidebarBackTop {
   background: #286983;
   color: rgb(232, 229, 229);
   opacity: 0.8;
@@ -340,46 +393,47 @@ body > section {
   text-decoration: none; 
   justify-content: center;
   text-align: center;
-  background: rgb(5, 39, 85);
+  background: rgb(1, 24, 55);
   color: rgb(232, 229, 229);
   font-weight: bold;
-  padding-left: 10px;
   padding-bottom: 12px;
   display: block;
   font-size: 14px;
+  padding-right: 10px;
 }
 #sidebar a.back2Top:hover {
-  background:rgb(2, 16, 36);
-  color: rgb(232, 229, 229)
+  color: #0d6efd;
 }
 #sidebarContent {
-  width: 200px;
-  background: rgb(5, 39, 85);
-  padding-right: 18px;
-  padding-left: 8px;
-  padding-top: 200px;
+  width: 195px;
+  background:rgb(1, 24, 55);
+  padding-left: 14px;
+  margin-top: 100px;
+  padding-top: 300px;
+  min-height: 100%;
+  
   
 }
 footer a {
   color: rgb(232, 229, 229);
 }
 #main {
-  margin-left: 235px;
+  margin-left: 190px;
   margin-right: 0px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 #wrapall {
-  padding-top: 60px;
+  padding-top: 55px;
 }
 #header {
   max-width: 1000px;
   overflow: hidden;
-  height: 50px;
+
 }
 #wrapall,
 #header {
-  max-width: 1050px;
-  margin: 0;
+  max-width: 1000px;
+  
 }
 #headerLeft,
 #headerRight {
@@ -388,155 +442,58 @@ footer a {
 }
 #headerLeft {
   text-align: center;
-  width: 120px;
+  /* width: 120px; */
   float: left;
   
 }
 #headerRight {
-  height: 40px;
+  height: 50px;
   float: right;
 }
 #sidebar {
   float: left;
-  position: absolute;
+  margin-left: 0;
+  position: fixed;
+  bottom: 0;
+  height: auto;
   box-shadow: -2px 2px 20px rgba(#000, 0.5);
-
+  
 }
 
 
 #menuToggle {
-  width: 60px;
-  background: rgb(2, 16, 36);
+  position: fixed;
+  width: 155px;
+  margin-top: 5px;
+  margin-left: 3px;
   cursor: pointer;
-  padding: 0px 1px 1px 2px;
-  line-height: 10px;
-  color: rgb(232, 229, 229);
-  font-size: 70px;
-  width: 40px;
-  height: 40px;
-  margin-top: 3px;
-  margin-left: 9px;
+  margin-right: 0;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px rgb(255, 187, 13);
 
-}
-
-
-#mobileMenuToggle {
-  background: rgb(2, 16, 36);
-  cursor: pointer;
-  display: inline-block;
-  font-size: 40px;
-  width: 40px;
-  font-weight: bold;
-  text-align: center;
-  height: 40px;
-  line-height: 40px;
-  color: rgb(232, 229, 229);
-  
-}
-#mobileMenuToggle,
-#mobileLogo {
-  vertical-align: middle;
-  display: none;
-  font-size: 20px;
-  
 }
 
 #menuToggle:hover {
-  color: rgb(2, 16, 36);
-  background:  rgb(232, 229, 229)
+  box-shadow: 2px 2px 8px 4px rgb(255, 187, 13);
 }
-
 .stick #sidebarContent {
+  float: left;
   position: fixed;
-  bottom: 0px;
+  
 }
 
 #stick-here {
   background: red;
 }
-.sidebarToggle #sidebar {
+/* .sidebarToggle #sidebar {
   display: none;
-}
-.sidebarToggle #main {
-  margin-left: 0px;
-}
-@media screen and (max-width: 1100px) {
-  header {
-    padding: 10px;
-    padding-bottom: 10px;
-  }
-  #headerLeft {
-    float: left;
-  }
-  #headerRight {
-  float: right;
-  }
-}
+} */
+/* .sidebarToggle #main {
+ margin: 0px;
+} */
 
-#devdum {
-  left: 0;
-  top: 0; 
- }
-
-@media screen and (max-width: 820px) {
-  #sidebar {
-    display: none;
-  }
-  #main {
-    margin-left: 13px;
-    margin-right: 0px;
-  }
-  .sidebarToggle #sidebar {
-    background: rgb(2, 16, 36);
-    display: block;
-    
-  }
-  .stick #sidebarContent {
-    bottom: auto;
-    position: fixed;
-  
-  }
-
-  #devdum {
-    left: 0;
-    top: 0; 
-   }
-
-  aside > div {
-    min-height: 20px;
-    margin: 10px;
-    background: rgb(2, 16, 36);
-    min-height: 20px;
-    width: 100px;
-    padding: 10px 47px;
-    text-align: center;
-    color: rgb(232, 229, 229);
-  }
-  .sidebarToggle #menuToggle {
-    background: rgb(2, 16, 36);
-    color: rgb(232, 229, 229);
-
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #headerLeft {
-    float: right;
-    margin: 0px;
-  }
-  #headerRight {
-    height: auto;
-    position: absolute;
-    width: auto;
-    top: 46px;
-    background: rgb(5,39,85);
-    left: 0;
-    display: none;
-  }
-  .showMobileMenu #headerRight {
-    display: block;
-  }
-  nav ul li a {
+@media screen and (max-width: 527px) {
+     nav ul li a {
     display: block;
     background: transparent;
     color:rgb(232, 229, 229);
@@ -546,59 +503,11 @@ footer a {
     padding: 3px 29px;
     line-height: 25px;
   }
-  .showMobileMenu #mobileMenuToggle {
-    background: rgb(2, 16, 36);
-     color: rgb(232, 229, 229);
-     float: right;
-     margin-right: 0px;
-  }
-  nav ul li {
-    display: block;
-    margin: 0;
-  }
-  .socialButtons {
-    display: none;
-  }
-  header {
-    padding: 3px 12px;
-  }
-  #page {
-    padding: 2px 2px;
-  }
-  #wrapall {
-    padding-top: 35px;
-  }
-  #sidebarContent {
-    right: 0;
-    background: rgb(5,39,85);
-    width: 200px;
-    bottom: 0;
-  
 
-  }
-  #mobileLogo {
-    display: inline-block;
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 10px;
-    color: rgb(232,229,229);
-    text-decoration: none;
-    background:rgb(2, 16, 36);
-   
-  }
-
-  #mobileMenuToggle {
-    display: inline-block;
-    background:rgb(2, 16, 36);
-    width: 150px;
-    margin-top: 5px;
-    font-size: 20px;
-    padding-left: 7px;
- 
-  };
+nav ul li {
+ display: block;
+ margin: 0;
 }
 
     
-  
-
+};
