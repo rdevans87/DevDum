@@ -311,18 +311,19 @@ footer p {
 address {
   padding: 10px 20px 30px 10px;
 }
+
+
 aside > div {
   margin-bottom: 10px;
   margin-left: 8px;
   background: rgb(2, 16, 36);
-  min-height: 20px;
+  min-height: 10px;
   width: 150px;
-  padding: 8px 30px;
+  padding: 5px 10px;
   text-align: center;
-  color: rgb(232, 229, 229);
-  box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.363);
   border-radius: 4px;
   box-shadow: 1px 1px 4px rgb(255, 187, 13);
+
 }
 
 
@@ -332,10 +333,8 @@ aside > div {
     padding-top: 10px;
     color: rgb(232, 229, 229);
    
-    
-
+  
 }
-
 
 a {
   display: block;
@@ -361,8 +360,6 @@ a {
   transition-duration: 0.15s, 0.15s, 0.15s;
   transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
   transition-delay: 0s, 0s, 0s;
-  
-
 
 
 };
@@ -373,9 +370,8 @@ a {
 
 
 body > section {
-  max-width: 1000px;
+  max-width: 100%;
   margin: auto;
-  margin-left: 0px;
   border-bottom: 1px solid #999;
   
 }
@@ -408,10 +404,10 @@ body > section {
   width: 195px;
   background:rgb(1, 24, 55);
   padding-left: 14px;
-  margin-top: 100px;
-  padding-top: 300px;
-  min-height: 100%;
-  
+  padding-top: 135px;
+
+
+
   
 }
 footer a {
@@ -419,7 +415,7 @@ footer a {
 }
 #main {
   margin-left: 190px;
-  margin-right: 0px;
+  margin-right:0;
   margin-top: 5px;
 }
 #wrapall {
@@ -453,21 +449,18 @@ footer a {
 #sidebar {
   float: left;
   margin-left: 0;
-  position: fixed;
-  bottom: 0;
-  height: auto;
   box-shadow: -2px 2px 20px rgba(#000, 0.5);
+  bottom: 0;
+
   
 }
 
 
 #menuToggle {
-  position: fixed;
   width: 155px;
   margin-top: 5px;
   margin-left: 3px;
   cursor: pointer;
-  margin-right: 0;
   border-radius: 4px;
   box-shadow: 1px 1px 4px rgb(255, 187, 13);
 
@@ -479,6 +472,8 @@ footer a {
 .stick #sidebarContent {
   float: left;
   position: fixed;
+  bottom: 0;
+
   
 }
 
@@ -492,22 +487,4 @@ footer a {
  margin: 0px;
 } */
 
-@media screen and (max-width: 527px) {
-     nav ul li a {
-    display: block;
-    background: transparent;
-    color:rgb(232, 229, 229);
-    text-align: center;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 3px 29px;
-    line-height: 25px;
-  }
 
-nav ul li {
- display: block;
- margin: 0;
-}
-
-    
-};
