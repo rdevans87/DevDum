@@ -88,46 +88,30 @@ h1{
   font-weight: bold;
   text-shadow: 1px rgb(28, 27, 27);
   word-spacing: -8px; 
-  padding-left: 10px;
   text-align: center;
-  padding-bottom: 2px;
- 
+  padding: 10px 0px 0px 5px;
 }
 h2 {
-  font-size: 15px;
+  font-size: 17px;
   color: rgb(232, 229, 229);
-  padding-left: 1px;
+  padding-top: 3px;
+  text-shadow: 1px rgb(28, 27, 27)
 }
 h3 {
   font-size: 15px;
   color: rgb(237, 177, 26);
   text-shadow: 1px rgb(28, 27, 27);
   text-align: center;
-  text-shadow: 0px 0px 2px 0px rgb(237, 177, 26);
+  word-spacing: -8px;
+  
 }
 h4 {
   font-size: 12px;
   text-align:center;
-  padding-top: 10px;
+  padding: 15px;
   color: rgb(232, 229, 229);
+  text-shadow: 1px rgb(28, 27, 27)
 }
-
-a {
-  font-size: 17px;
-  font-weight: bold;
-
- }
-
-/* #page:hover{
-  background: transparent;
-
-} */
-
-/* a:hover{
- color: rgb(2, 16, 36);
- background: rgb(232, 229, 229);
-} */
-
 
 article,
 aside,
@@ -199,13 +183,11 @@ select {
 }
 body,
 html {
-   /* background-color: rgb(2, 16, 36);  */
    background-image: linear-gradient(to top, #031b48 0%, #021539 1%, #000d22 100%); 
 }
 header {
   background: rgb(1, 24, 55);
-  padding: 10px 30px;
-  margin: auto;
+  padding: 10px 10px;
   position: fixed;
   /* line-height: 1; */
   left: 0;
@@ -217,26 +199,38 @@ header {
 
 }
 nav {
+  right: 0;
+  top: 0;
   display: inline-block;
+  position: absolute;
+  color:  #0d6efd;
+  text-decoration: solid black;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.15s, 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s, 0s;
+}
   /* margin-right: 20px; */
   /* box-shadow: 1px 1px 4px rgb(255, 187, 13); */
-}
+
 nav ul li a {
   background: rgb(2, 16, 36);
-  padding: 1px 5px;
+  padding: 3px 4px 0px 0px;
   font-size: 14px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 4px;
   box-shadow: 4px 8px 4px rgba(7, 7, 7, 0.824);
   text-shadow: 1px rgb(28, 27, 27);
+  top: 0;
 }
  nav ul li a:hover {
 box-shadow: 2px 4px 8px 4px #0d6efd;  
 }
 nav ul li {
   display: inline-block;
-  margin: 10px;
+  top: 0;
 }
 nav ul {
   list-style: none;
@@ -250,13 +244,13 @@ nav ul {
 article{
   /* background: transparent; */
   line-height:  1.5;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   border-radius: 4px;
-  margin-bottom: 20px;
-  width: 95%;
-  margin:0% 2.5%;
-  margin-top: 12px;
-  color: rgb(228, 226, 226);
+  margin-bottom: 5px;
+  min-width: 305px;
+  width: 100%;
+  margin-top: 15px;
+  color: rgb(232, 229, 229);
   background:rgb(1, 24, 55); 
   box-shadow: 2px 4px 8px 4px rgba(7, 7, 7, 0.824);
   text-shadow: 1px rgb(28, 27, 27);
@@ -266,14 +260,15 @@ article:hover {
 }
 article h2 {
     font-weight: bold;
-    margin-bottom: 12px;
-    padding-bottom: 2px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
 }
 p {
 font-size: 11px;
 text-shadow: 1px rgb(28, 27, 27);
 text-decoration:solid black; 
-padding-left: 5px;
+padding-left: 15px;
+padding-right: 2px;
 }
 footer {
   background: transparent;
@@ -283,7 +278,7 @@ footer {
   text-align: right;
 }
 footer p {
-  padding: 20px;
+  padding: 15px;
   color:rgb(232, 229, 229);
   font-size: 10px;
 }
@@ -291,26 +286,23 @@ address {
   padding: 10px 20px 30px 10px;
 }
 aside > div {
-  margin-bottom: 10px;
-  margin-left: 8px;
+  margin: 12px auto;
+  margin-left: 5px;
   background: rgb(2, 16, 36);
   /* min-height: 150px; */
-  width: 150px;
+  width: 155px;
   padding: 5px 10px;
   text-align: center;
   border-radius: 4px;
   box-shadow: 1px 1px 4px #FFCF00;
-
 }
 body > section {
   max-width: 1000px;
   margin: auto;
-  padding: 30px 0px;
-  border-bottom: 1px solid #999;
-
+  padding-top: 5px;
 }
 a {
-  display: block;
+  display: inline-block;
   padding: 0.5rem 1rem;
   color:#0d6efd;
   text-decoration: underline;
@@ -319,20 +311,9 @@ a {
   transition-duration: 0.15s, 0.15s, 0.15s;
   transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
   transition-delay: 0s, 0s, 0s;
-  /* text-shadow: 2px 2px 4px #0252cb */
 }
-.nav-link {
 
-  display: block;
-  padding: 0.5rem 1rem;
-  color:  #0d6efd;
-  text-decoration: solid black;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-  transition-property: color, background-color, border-color;
-  transition-duration: 0.15s, 0.15s, 0.15s;
-  transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
-  transition-delay: 0s, 0s, 0s;
-}
+
 .nav-link:hover {
   box-shadow: 2px 4px 8px 8px #0d6efd;
 }
@@ -354,7 +335,7 @@ a {
   padding-bottom: 12px;
   display: block;
   font-size: 14px;
-  padding-right: 27px;
+  padding-right: 30px;
 }
 #sidebar a.back2Top:hover {
   color: #0d6efd;
@@ -363,7 +344,7 @@ a {
   width: 195px;
   background:rgb(1, 24, 55);
   padding-left: 14px;
-  padding-top: 130px;
+  /* padding-top: 130px; */
 }
 footer a {
   color: rgb(232, 229, 229);
@@ -374,7 +355,7 @@ footer a {
   margin-top: 5px;
 }
 #wrapall {
-  padding-top: 55px;
+  padding-top: 38px;
 }
 #header {
   max-width: 1000px;
@@ -391,16 +372,14 @@ footer a {
 #headerLeft,
 #headerRight {
   display: inline-block;
-  vertical-align: middle;
  
 }
 #headerLeft {
-  text-align: center;
-  /* width: 120px; */
+  /* text-align: center; */
   width: 100px;
-}
+} 
 #headerRight {
-  height: 50px;
+  height: 60px;
 }
 #sidebar {
   float: left;
@@ -409,33 +388,39 @@ footer a {
   box-shadow: -2px 2px 20px rgba(#000, 0.5);
   bottom: 0;
 }
-
 #page {
   padding: 20px; 
 
 }
-
 #menuToggle {
   width: 155px;
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: 3px;
+  display: block;
+  position: absolute;
   cursor: pointer;
   border-radius: 4px;
-  line-height: 40px;
   box-shadow: 1px 1px 4px rgb(255, 187, 13);
+  left:0;
+  top: 0;
+  
 
+}
+#mobileMenuToggle,
+#mobileLogo {
+  display: none;
+  font-size: 30px;
 }
 #menuToggle:hover {
   box-shadow: 2px 2px 8px 4px rgb(255, 187, 13);
 }
 .stick #sidebarContent {
-  float: left;
   position: fixed;
-  bottom: 0;
-
+  z-index: 900;
+  bottom: 0px;
   
 };
+
+.sidebarToggle #main {
+  margin-left: 0;
 
 /* @media screen and (max-width: 920px) {
 
@@ -524,3 +509,4 @@ nav ul li {
 };
 }; */
 
+}
