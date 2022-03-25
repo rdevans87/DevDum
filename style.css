@@ -428,6 +428,23 @@ footer a {
   bottom: 0px;
 }
 
+#title{
+padding-top: 15px;
+font-size: 18px;
+}
+
+a#list {
+  color:rgb(232, 229, 229);
+  font-size: 13px;
+  text-decoration: None;
+}
+
+a#list:hover{
+  color: #0d6efd;
+
+}
+
+
 /* .sidebarToggle #main {
   margin-left: 0; */
 

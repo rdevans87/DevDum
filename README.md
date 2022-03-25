@@ -14,12 +14,9 @@ Do your best to learn the fundamentals and understand the principles, but don't 
 
 Take advantage of all the free & open source options available on the internet: code snippets, cheat sheets, static websites, even fully developed applications ready to deploy. You'll be surprised what you can find, and what's already been built for you to use. 
 
-DevDum contains all the resources needed for developing a fullstack web application. Hopefully, it saves you some of the headache along the way. If there's anything else you want to know, you'll have to find it on your own, but if you discover anything cool, please let me know about it! I'm always looking to add more resources to my repertoire! 
+DevDum contains all the resources needed for developing a fullstack web application. Hopefully, it saves you some of the headache along the way. If there's anything else you want to know, you'll have to find it on your own, but if you discover anything cool, please let me know about it! I'm always looking to add more resources to my development toolkit! 
 
-Give this repo a star and share if you like DevDum! Happy coding and thanks for stopping by!
-
-
-Special thanks to the development community for collective of Contact me. 
+ Give this repo a star and share if you like DevDum! Special thanks to all the developers, engineers, programmer, tech heads, awesome listers, open sourcers, and product hunter out there! 
 
 
 
