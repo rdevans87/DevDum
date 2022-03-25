@@ -89,7 +89,7 @@ h1 {
   text-shadow: 1px 1px 4px #ffcf00 3px rgb(28, 27, 27);
   word-spacing: -8px;
   text-align: center;
-  padding: 10px 0px 0px 5px;
+  padding: 5px 0px 0px 3px;
 }
 
 h2 {
@@ -111,6 +111,7 @@ h4 {
   padding: 15px;
   color: rgb(232, 229, 229);
   text-shadow: 1px rgb(28, 27, 27);
+  text-align: left;
 }
 
 article,
@@ -220,6 +221,12 @@ nav {
 /* margin-right: 20px; */
 /* box-shadow: 1px 1px 4px rgb(255, 187, 13); */
 
+#stack, #github, #dailydev, #mdn, #w3{
+  box-shadow: 1px 1px 1px 1px #ffcf00;
+}
+#stack:hover, #github:hover, #dailydev:hover, #mdn:hover, #w3:hover{
+  box-shadow: 1px 2px 2px 1px #0d6efd;
+}
 nav ul li a {
   background: rgb(2, 16, 36);
   padding: 8px 4px 4px 4px;
@@ -241,17 +248,15 @@ nav ul li {
 nav ul {
   list-style: none;
 }
-
-#yellow {
+#yellow{
   margin-bottom: 5px;
-  padding-bottom: 20px;
+  padding-bottom:5px;
   box-shadow: 1px 1px 1px 1px #ffcf00;
+  
 }
-
 #yellow:hover {
   box-shadow: 1px 1px 1px 1px #ffcf00;
 }
-
 article {
   /* background: transparent; */
   line-height: 1.5;
