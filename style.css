@@ -229,7 +229,7 @@ nav {
 }
 nav ul li a {
   background: rgb(2, 16, 36);
-  padding: 8px 4px 4px 4px;
+  padding: 5px 4px 4px 4px;
   font-size: 13px;
   text-decoration: none;
   font-weight: bold;
@@ -303,9 +303,9 @@ address {
   padding: 10px 20px 30px 10px;
 }
 aside > div {
-  margin: 12px auto;
+  margin: 9px auto;
   padding-top: 40px;
-  min-height: 20px;
+  /* min-height: 20px; */
   margin-left: 5px;
   background: rgb(2, 16, 36);
   /* min-height: 150px; */
@@ -459,7 +459,7 @@ a#list:hover{
   }
   nav ul li {
     margin-bottom: 2px;
-    margin-right: -7px;
+    margin-right: -5px;
   }
 
   #headerRight {
@@ -552,6 +552,8 @@ a#list:hover{
 } */
 
 @media screen and (max-width: 600px) {
+
+
   /* #main {
     margin-left: 190px;
     margin-right: 0px;
@@ -581,18 +583,18 @@ a#list:hover{
 
   nav {
     width: 60%;
-    margin-top: 3px;
+    margin-top: 6px;
   }
 
   nav ul li a {
-    font-size: 11px;
-    margin-bottom: 1px;
+    font-size: 10px;
+    margin-bottom: 3px;
     margin-top: 2px;
   }
 
   nav ul li {
     margin-bottom: 2px;
-    margin-right: -7px;
+    margin-right: -5px;
   }
 
   #headerRight {
@@ -620,7 +622,7 @@ a#list:hover{
 
   nav ul li {
     margin-bottom: 2px;
-    margin-right: -7px;
+    margin-right: -5px;
     
   }
 
