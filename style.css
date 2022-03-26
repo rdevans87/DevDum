@@ -84,29 +84,29 @@ body {
 }
 h1 {
   font-size: 40px;
-  color: #ffcf00;
+  color: #72A574;
   font-weight: bold;
-  text-shadow: 1px 1px 4px #ffcf00 3px rgb(28, 27, 27);
+  text-shadow: 1px 1px 4px #72A574 3px rgb(28, 27, 27);
   word-spacing: -8px;
   text-align: center;
   padding: 5px 0px 0px 3px;
 }
 
 h2 {
-  font-size: 15px;
+  font-size: 13px;
   color: rgb(232, 229, 229);
   padding-top: 3px;
   text-shadow: 1px rgb(28, 27, 27);
 }
 h3 {
   font-size: 15px;
-  color: #ffcf00;
+  color: #72A574;
   text-shadow: 1px rgb(28, 27, 27);
   text-align: center;
   word-spacing: -8px;
 }
 h4 {
-  font-size: 12px;
+  font-size: 11px;
   text-align: center;
   padding: 15px;
   color: rgb(232, 229, 229);
@@ -222,13 +222,13 @@ nav {
 /* box-shadow: 1px 1px 4px rgb(255, 187, 13); */
 
 #stack, #github, #dailydev, #mdn, #w3{
-  box-shadow: 1px 1px 1px 1px #ffcf00;
+  box-shadow: 1px 1px 1px 1px #72A574;
 }
 #stack:hover, #github:hover, #dailydev:hover, #mdn:hover, #w3:hover{
   box-shadow: 1px 2px 2px 1px #0d6efd;
 }
 nav ul li a {
-  background: rgb(2, 16, 36);
+  background: rgb(1, 4, 29);
   padding: 5px 4px 4px 4px;
   font-size: 13px;
   text-decoration: none;
@@ -251,11 +251,11 @@ nav ul {
 #yellow{
   margin-bottom: 5px;
   padding-bottom:5px;
-  box-shadow: 1px 1px 1px 1px #ffcf00;
+  box-shadow: 1px 1px 1px 1px #72A574;
   
 }
 #yellow:hover {
-  box-shadow: 1px 1px 1px 1px #ffcf00;
+  box-shadow: 1px 1px 1px 1px #72A574;
 }
 article {
   /* background: transparent; */
@@ -307,13 +307,13 @@ aside > div {
   padding-top: 40px;
   /* min-height: 20px; */
   margin-left: 5px;
-  background: rgb(2, 16, 36);
+  background: rgb(1, 4, 29);
   /* min-height: 150px; */
   width: 155px;
   padding: 5px 10px;
   text-align: center;
   border-radius: 4px;
-  box-shadow: 1px 2px 1px #ffcf00;
+  box-shadow: 1px 2px 1px #72A574;
 }
 aside > div:hover {
   box-shadow: 1px 2px 1px #0d6efd;
@@ -326,10 +326,9 @@ body > section {
 a {
   display: inline-block;
   padding: 0.5rem 1rem;
-  color: #ffcf00;
+  color: #96C0A5;
   text-decoration: underline;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition-property: color, background-color, border-color;
   transition-duration: 0.15s, 0.15s, 0.15s;
   transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
@@ -414,7 +413,7 @@ footer a {
   position: fixed;
   cursor: pointer;
   border-radius: 4px;
-  box-shadow: 2px 2px 2px 2px #ffcf00;
+  box-shadow: 2px 2px 2px 2px #72A574;
   left: 0;
   top: 0;
 }
@@ -430,13 +429,14 @@ footer a {
 
 #title{
 padding-top: 15px;
-font-size: 18px;
+font-size: 15px;
+margin-bottom: 5px;
 }
 
 a#list {
   color:rgb(232, 229, 229);
-  font-size: 13px;
-  text-decoration: None;
+  font-size: 11px;
+  text-decoration: none;
 }
 
 a#list:hover{
@@ -467,119 +467,8 @@ a#list:hover{
     text-align: right;
   }
 
-/*   
-  #page {
-    padding: 20px;
-  }
-
-  #main {
-    margin-left: 190px;
-    margin-right: 0px;
-  }
-  #wrapall {
-    padding-top: 38px;
-  }
-  #headerLeft,
-  #headerRight {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  #header {
-    max-width: 1000px;
-    overflow: hidden;
-    height: 60px;
-  }
-  #wrapall,
-  #header {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  header {
-    z-index: 999;
-    height: 60px;
-  }
-
-  #headerLeft {
-    text-align: center;
-    width: 100px;
-  }
-  #headerRight {
-    float: right;
-    text-align: right;
-  }
-  aside > div {
-    padding-top: 48px;
-    min-height: 15px;
-    margin-left: 5px;
-    background: rgb(2, 16, 36);
-    width: 155px;
-    padding: 5px 3px;
-    text-align: center;
-    border-radius: 4px;
-    box-shadow: 1px 2px 1px #ffcf00;
-  }
-  #menuToggle {
-    width: 159px;
-    margin-left: 17px;
-    margin-top: 10px;
-    position: fixed;
-    cursor: pointer;
-    border-radius: 4px;
-    box-shadow: 2px 2px 2px 2px #ffcf00;
-    left: 0;
-    top: 0;
-  }
-
-  #sidebar {
-    position: absolute;
-    float: left;
-    box-shadow: -2px 2px 20px rgba(#000, 0.5);
-  }
-
-  #sidebarContent {
-    padding-top: 133px;
-    width: 193px;
-    position: absolute;
-    float: left;
-    box-shadow: -2px 2px 20px rgba(#000, 0.5);
-  }
-
-  .stick #sidebarContent {
-    position: fixed;
-    z-index: 900;
-    bottom: 0px;
-  }
-} */
 
 @media screen and (max-width: 600px) {
-
-
-  /* #main {
-    margin-left: 190px;
-    margin-right: 0px;
-  }
-  #wrapall {
-    padding-top: 38px;
-  }
-  #header {
-    max-width: 600px;
-    overflow: hidden;
-    height: 60px;
-  }
-  #wrapall,
-  #header {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  #headerLeft,
-  #headerRight {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  #headerLeft {
-    text-align: center;
-    width: 100px;
-  } */
 
   nav {
     width: 60%;
