@@ -1,11 +1,9 @@
-# DEVDUM! 
-## CODE SMARTER. NOT HARDER. 
+# DEVDUM! - CODE SMARTER. NOT HARDER.
 
+<img alt="devdum" title="devdum" src="DevDum copy (1).png" width="275px" />
 
-<img alt="devdum" title="devdum" src="DevDum copy (1).png" width="300px" />
- 
-## LESS SEARCHING MORE LEARNING WITH OVER 200+ HAND PICKED RESOURCES 
-## FOR WEB DEVELOPERS...IT'S A NO BRAINER!
+## - LESS SEARCHING MORE LEARNING WITH OVER 200+ HAND PICKED RESOURCES ## FOR WEB DEVELOPERS...IT'S A NO BRAINER!
+
 
 ## TABLE OF CONTENTS
 
@@ -39,7 +37,9 @@ Take advantage of all the free & open source options available on the internet: 
 
 DevDum contains all the resources needed for developing a fullstack web application. Hopefully, it saves you some of the headache along the way. If there's anything else you want to know, you'll have to find it on your own, but if you discover anything cool, please let me know about it! I'm always looking to add more resources to my development toolkit! 
 
- Give this repo a star and share if you like DevDum! Special thanks to all the developers, engineers, programmer, tech heads, awesome listers, open sourcers, and product hunter out there! 
+ Give this repo a star and share if you like DevDum! Special thanks to all the developers, engineers, programmer, tech heads, awesome listers, open sourcers, and product hunters out there! 
+
+Check out my GitHub profile page for contact information: ![icons8-r](icons/icons8-github.png)
 
 
 
