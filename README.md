@@ -8,7 +8,7 @@
 ## TABLE OF CONTENTS 
 
 * [COMMENTS](#COMMENTS)
-* [WHAT'S IN THE APP?](#what'sintheapp?)
+* [WHAT'S IN THE APP?](#whats-in-the-app?)
 * [HTML](#html)
 * [CSS](#css)
 * [JAVASCRIPT](#javascript)
@@ -20,7 +20,7 @@
 * [GITHUB](#github)
 * [YOUTUBE](#youtube)
 * [MORE](#more)
-* [GET IN TOUCH](#getintouch)
+* [GET IN TOUCH](#get-in-touch)
 * [LICENSE](#license)
 
 ## COMMENTS
