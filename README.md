@@ -104,4 +104,6 @@ Check out my GitHub profile page for contact information: ![https://github.com/r
 
 ## LICENSE
 
+MIT LICENSE ![MIT LICENSE](icons/icons8-certificate.png)
+
 
