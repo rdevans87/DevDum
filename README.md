@@ -5,10 +5,10 @@
 ## - LESS SEARCHING MORE LEARNING WITH OVER 200+ HAND PICKED RESOURCES ## FOR WEB DEVELOPERS...IT'S A NO BRAINER!
 
 
-## TABLE OF CONTENTS
+## TABLE OF CONTENTS 
 
-* [LETTER FROM THE DEVELOPER](#Letterfromthedeveloper)
-* [What's in the App?](#what'sintheapp?)
+* [COMMENTS](#COMMENTS)
+* [WHAT'S IN THE APP?](#what'sintheapp?)
 * [HTML](#html)
 * [CSS](#css)
 * [JAVASCRIPT](#javascript)
@@ -23,7 +23,7 @@
 * [GET IN TOUCH](#getintouch)
 * [LICENSE](#license)
 
-### Summary
+## COMMENTS
 
 Learning to code takes time...a lot of time. I'm talking hours and hours in front of a computer researching: languages, libraries, frameworks, theories, methods, principles, packages, back-end, front-end, functions, arrays, loops, variables, elements, classes, objects, algorithms & abbreviations: html, css, js, json, dom, api, mvc, mvp, oop, orm, pwa, sql, npm, git, cli… And the list goes on. 
 
@@ -39,9 +39,69 @@ DevDum contains all the resources needed for developing a fullstack web applicat
 
  Give this repo a star and share if you like DevDum! Special thanks to all the developers, engineers, programmer, tech heads, awesome listers, open sourcers, and product hunters out there! 
 
-Check out my GitHub profile page for contact information: ![icons8-r](icons/icons8-github.png)
+ ## WHAT'S IN THE APP?
 
 
+<details>
+<summary>HTML</summary>
+<br>
+Insert HTML Resources
+</details>
+<details>
+<summary>CSS</summary>
+<br>
+Insert CSS Resources
+</details>
+<details>
+<summary>JAVASCRIPT</summary>
+<br>
+Insert JAVASCRIPT Resources
+</details>
+<details>
+<summary>BOOTSTRAP</summary>
+<br>
+Insert BOOTSTRAP Resources
+</details>
+<details>
+<summary>REACT</summary>
+<br>
+Insert REACTResources
+</details>
+<details>
+<summary>NODEJS</summary>
+<br>
+Insert NODEJS Resources
+</details>
+<details>
+<summary>API</summary>
+<br>
+Insert API Resources
+</details>
+<details>
+<summary>SQL</summary>
+<br>
+Insert SQL Resources
+</details>
+<details>
+<summary>GITHUB</summary>
+<br>
+Insert GITHUB Resources
+</details>
+<details>
+<summary>YOUTUBE</summary>
+<br>
+Insert YOUTUBE Resources
+</details>
+<details>
+<summary>MORE</summary>
+<br>
+Insert MORE Resources
+</details>
 
+
+## GET IN TOUCH
+Check out my GitHub profile page for contact information: ![https://github.com/rdevans87](icons/icons8-github.png)
+
+## LICENSE
 
 
