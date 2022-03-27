@@ -72,7 +72,9 @@
 				<article id="yellow">
 					<h1>SQL<img alt="html" title="html" src="icons/output-onlineimagetools-sql.png"/></h1>
 					<h4><strong>SQL (Structured Query Language) is a descriptive computer language designed for updating, retrieving, and calculating data in table-based databases.</strong></h4>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for resources.." title="Type in a name">
 				</article>
+			<ul id="myUL">
 				<article>
 					<h2><a href="https://www.w3schools.com/sql/" target="_blank">W3 Schools | SQL Tutorial</a></h2>
 					<p>Our SQL tutorial will teach you how to use SQL in: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres, and other database systems.</p>
@@ -151,6 +153,7 @@
 					<h2><a href="https://www.youtube.com/watch?v=ZS_kXvOeQ5Y" target="_blank">SQL vs NoSQL or MySQL vs MongoDB</a></h2>
 					<p>SQL or NoSQL? MySQL vs MongoDB? Which database is better? Which one should you use? Read the blog on this video here for more helpful documentation.<a href="https://academind.com/tutorials/sql-vs-nosql">Academind.com</a></p>
 				</article>	
+			</ul>
 			</main>			
 			<footer>
 				<p>&copy;DevDum! Less searching. More learning. <a rel="nofollow" href="https://github.com/rdevans87/DevDum" target="_blank" rel="nofollow">Hosted on GitHub!</a></p>
@@ -159,4 +162,22 @@
 	</div>
 </div>
 </body>
+<script>
+	function myFunction() {
+		var input, filter, ul, li, a, i, txtValue;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		ul = document.getElementById("myUL");
+		article = ul.getElementsByTagName("article");
+		for (i = 0; i < article.length; i++) {
+			a = article[i].getElementsByTagName("a")[0];
+			txtValue = a.textContent || a.innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			  article[i].style.display = "";
+			} else {
+				article[i].style.display = "none";
+			}
+		}
+	}
+	</script>
 </html>

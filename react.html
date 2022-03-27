@@ -71,7 +71,9 @@
 					<h1>REACT<img alt="react" title="react" src="icons/output-onlineimagetools-react.png"/></h1>
 					<h4><strong>React is a library developed by Facebook which makes it very easy to create interactive UIs. 
 						React is used to build single-page applications and allows us to create reusable UI components. </strong></h4>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for resources.." title="Type in a name">
 				</article>
+			<ul id="myUL">
 				<article>
 					<h2><a href="https://create-react-app.dev/" target="_blank">Create React App</a></h2>
 					<p>Set up a modern web app by running one command. Create React App lets you focus on code, not build tools.</p>
@@ -145,6 +147,7 @@
 					<h2><a href="https://javascript.plainenglish.io/unique-project-ideas-to-practice-react-86a76645a389" target="_blank">Project Ideas to Practice React</a></h2>
 					<p>Unique projects you can make to practice and improve your React Skills: Movie Recommendation App, Quiz App, Travel Advisor, Group Chat App, & more... </p>
 				</article>	
+			</ul>
 			</main>			
 			<footer>
 				<p>&copy;DevDum! Code Smarter. Not Harder.<a rel="nofollow" href="https://github.com/rdevans87/DevDum" target="_blank" rel="nofollow">Hosted on GitHub!</a></p>
@@ -152,5 +155,23 @@
 		</section>
 	</div>
 </div>
+<script>
+	function myFunction() {
+		var input, filter, ul, li, a, i, txtValue;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		ul = document.getElementById("myUL");
+		article = ul.getElementsByTagName("article");
+		for (i = 0; i < article.length; i++) {
+			a = article[i].getElementsByTagName("a")[0];
+			txtValue = a.textContent || a.innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			  article[i].style.display = "";
+			} else {
+				article[i].style.display = "none";
+			}
+		}
+	}
+	</script>
 </body>
 </html>

@@ -69,10 +69,12 @@
 	<div id="main">
 		<section id="page">
 			<main>
-				<article #yellow>
+				<article id="yellow">
 					<h1>GitHub<img alt="Github" title="GitHub" src="icons/output-onlineimagetools-github.png"/></h1>
 					<h4><strong>GitHub is where over 73 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, and more.</strong></h4>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for resources.." title="Type in a name">
 				</article>
+				<ul id="myUL">
 				<article>
 					<h2><a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a></h2>
 					<p>Create sophisticated formatting for your prose and code on GitHub with simple syntax.</p>
@@ -144,6 +146,7 @@
 					<h2><a href="https://github.com/collections/tools-for-open-source" target="_blank">Github Collections | Tools For open Sourcek</a></h2>
 					<p>The entire Pro Git book, written by Scott Chacon and Ben Straub and published by Apress, is available here</p>
 				</article>
+			</ul>
 			</main>			
 			<footer>
 				<p>&copy;DevDum! Code Smarter. Not Harder.<a rel="nofollow" href="https://github.com/rdevans87/DevDum" target="_blank" rel="nofollow">Hosted on GitHub!</a></p>
@@ -151,5 +154,23 @@
 		</section>
 	</div>
 </div>
+<script>
+	function myFunction() {
+		var input, filter, ul, li, a, i, txtValue;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		ul = document.getElementById("myUL");
+		article = ul.getElementsByTagName("article");
+		for (i = 0; i < article.length; i++) {
+			a = article[i].getElementsByTagName("a")[0];
+			txtValue = a.textContent || a.innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			  article[i].style.display = "";
+			} else {
+				article[i].style.display = "none";
+			}
+		}
+	}
+	</script>
 </body>
 </html>

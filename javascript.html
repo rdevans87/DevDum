@@ -72,7 +72,9 @@
 				<article id="yellow">
 					<h1>Javascript<img alt="javascript" title="javascript" src="icons/output-onlineimagetools-js.png"/></h1>
 					<h4><strong>JavaScript is one of the 3 languages all web developers must learn. It's the world's most popular programming language. JavaScript is free to use for everyone. </strong></h4>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for resources.." title="Type in a name">
 				</article>
+				<ul id="myUL">
 				<article>
 					<h2><a href="https://html-css-js.com/js/" target="_blank">Javascript Tools & Resources</a></h2>
 					<p>Improve your front end developing efficiency with our free online JavaScript and jQuery tool collection. Use the JS beautifier, the cheat sheets or read the latest news in our blog.</p>
@@ -147,6 +149,7 @@
 					<p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, 
 						and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
 				</article>
+			</ul>
 			</main>			
 			<footer>
 				<p>&copy;DevDum! Code Smarter. Not Harder. <a rel="nofollow" href="https://github.com/rdevans87/DevDum" target="_blank" rel="nofollow">Hosted on GitHub!</a></p>
@@ -154,5 +157,23 @@
 		</section>
 	</div>
 </div>
+<script>
+	function myFunction() {
+		var input, filter, ul, li, a, i, txtValue;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		ul = document.getElementById("myUL");
+		article = ul.getElementsByTagName("article");
+		for (i = 0; i < article.length; i++) {
+			a = article[i].getElementsByTagName("a")[0];
+			txtValue = a.textContent || a.innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			  article[i].style.display = "";
+			} else {
+				article[i].style.display = "none";
+			}
+		}
+	}
+	</script>
 </body>
 </html>

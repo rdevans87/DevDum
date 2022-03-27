@@ -72,7 +72,9 @@
 				<article id="yellow">
 					<h1>API<img alt="api" title="api" src="icons/output-onlineimagetools-api.png"/></h1>
 					<h4><strong>API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.</strong></h4>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for resources.." title="Type in a name">
 				</article>
+			<ul id="myUL">
 				<article>
 					<h2><a href="https://www.w3schools.com/js/js_api_intro.asp" target="_blank">W3Schools | JS Web APIs </a></h2>
 					<p>A Web API is a developer's dream. It can extend the functionality of the browser. It can greatly simplify complex functions. 
@@ -142,6 +144,7 @@
 					<h2><a href="https://console.cloud.google.com/apis/library">Google Cloud Platform </a></h2>
 						<p>Welcome to the Google API Library. The API Library has documentation, links, and a smart search experience.</p>
 				</article>
+			</ul>
 			</main>			
 			<footer>
 				<p>&copy;DevDum! Code Smarter. Not Harder.<a rel="nofollow" href="https://github.com/rdevans87/DevDum" target="_blank" rel="nofollow">Hosted on GitHub!</a></p>
@@ -149,5 +152,23 @@
 		</section>
 	</div>
 </div>
+<script>
+	function myFunction() {
+		var input, filter, ul, li, a, i, txtValue;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		ul = document.getElementById("myUL");
+		article = ul.getElementsByTagName("article");
+		for (i = 0; i < article.length; i++) {
+			a = article[i].getElementsByTagName("a")[0];
+			txtValue = a.textContent || a.innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			  article[i].style.display = "";
+			} else {
+				article[i].style.display = "none";
+			}
+		}
+	}
+	</script>
 </body>
 </html>

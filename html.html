@@ -69,7 +69,9 @@
 				<article id="yellow">
 					<h1>HTML<img alt="html" title="html" src="icons/output-onlineimagetools-html.png" width="50px"/></h1>
 					<h4><strong>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. </strong></h4>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for resources.." title="Type in a name">
 				</article>
+			<ul id="myUL">
 				<article>
 					<h2><a href="https://html-css-js.com/html/" target="_blank">Free HTML Tools and Resources</a></h2>
 					<p>Editor, Tag List, Cheat Sheet, Character Code, Markup Generator, Templates, & More...</p>
@@ -145,7 +147,8 @@
 				<article>
 					<h2><a href="https://www.w3docs.com/snippets/html.html" target="_blank">W3Docs | HTML Snippets </a></h2>
 					<p>How-to articles, tricks, and solutions about HTML. </p>
-				</article>	
+				</article>
+			</ul>	
 			</main>			
 			<footer>
 				<p>&copy;DevDum! Less searching. More learning. <a rel="nofollow" href="https://github.com/rdevans87/DevDum" target="_blank" rel="nofollow">Hosted on GitHub!</a></p>
@@ -153,5 +156,23 @@
 		</section>
 	</div>
 </div>
+<script>
+	function myFunction() {
+		var input, filter, ul, li, a, i, txtValue;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		ul = document.getElementById("myUL");
+		article = ul.getElementsByTagName("article");
+		for (i = 0; i < article.length; i++) {
+			a = article[i].getElementsByTagName("a")[0];
+			txtValue = a.textContent || a.innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			  article[i].style.display = "";
+			} else {
+				article[i].style.display = "none";
+			}
+		}
+	}
+	</script>
 </body>
 </html>

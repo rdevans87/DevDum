@@ -69,10 +69,12 @@
 	<div id="main">
 		<section id="page">
 			<main>
-				<article>
+				<article id="yellow">
 					<h1>YouTube<img alt="html" title="html" src="icons/output-onlineimagetools-youtube.png"/></h1>
 					<h4><strong>YouTube channels and tutorial videos to watch and follow for practicing your webdevelopment skills.</strong></h4>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for resources.." title="Type in a name">
 				</article>
+			<ul id="myUL">
 				<article>
 					<h2><a href="https://www.youtube.com/c/WebDevSimplified" target="_blank">Channel | Web Dev Simplified</a></h2>
 					<p>Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner.</p>
@@ -146,6 +148,7 @@
 					<h2><a href="https://www.youtube.com/watch?v=OE7kml0pigw&t=3s" target="_blank">Tutorial | Build a Weather App With Javascript </a></h2>
 					<p>Integrating with APIs is a crucial skill for any web developer to succeed. In this video we will be integrating with the DarkSky Weather API and the Google Places API. Using these APIs we will learn how to connect to an API from both the client and the server. </p>
 				</article>
+			</ul>
 			</main>			
 			<footer>
 				<p>&copy;DevDum! Less searching. More learning. <a rel="nofollow" href="https://github.com/rdevans87/DevDum" target="_blank" rel="nofollow">Hosted on GitHub!</a></p>
@@ -153,5 +156,23 @@
 		</section>
 	</div>
 </div>
+<script>
+	function myFunction() {
+		var input, filter, ul, li, a, i, txtValue;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		ul = document.getElementById("myUL");
+		article = ul.getElementsByTagName("article");
+		for (i = 0; i < article.length; i++) {
+			a = article[i].getElementsByTagName("a")[0];
+			txtValue = a.textContent || a.innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			  article[i].style.display = "";
+			} else {
+				article[i].style.display = "none";
+			}
+		}
+	}
+	</script>
 </body>
 </html>

@@ -1,6 +1,25 @@
-# DevDum!
+# DEVDUM! ## CODE SMARTER. NOT HARDER. 
+<img alt=devdum href="DevDum copy (1).png"/>
+ 
+## LESS SEARCHING MORE LEARNING WITH OVER 200+ HAND PICKED RESOURCES 
+## FOR WEB DEVELOPERS...IT'S A NO BRAINER!
 
-### Code smarter not harder with over 200+ resources for web developers. 
+## TABLE OF CONTENTS
+*[LETTER FROM THE DEVELOPER](#Letterfromthedeveloper)
+*[What's in the App?](#what'sintheapp?)
+*[HTML](#html)
+*[CSS](#css)
+*[JAVASCRIPT](#javascript)
+*[BOOTSTRAP](#bootstrap)
+*[REACT](#react)
+*[NODEJS](#nodejs)
+*[API](#api)
+*[SQL](#sql)
+*[*GitHub](#github)
+*[YouTube](#youtube)
+*[More](#more)
+*[GET IN TOUCH](#getintouch)
+*[LICENSE](#license)
 
 ### Summary
 

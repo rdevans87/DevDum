@@ -67,11 +67,14 @@
 	<div id="main">
 		<section id="page">
 			<main>
+				
 				<article id="yellow">
-					<h1>DevDum!</h1>
+					<h1 class="display-2">DevDum<span class="vim-caret">!</span></h1>
 					<h3><strong>Code Smarter. Not Harder.</strong></h3>
 					<h4>Less searching more learning with 200+ resources for web developers...It's a no brainer!</h4>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for resources.." title="Type in a name">
 				</article>
+				<ul id="myUL">
 				<article>
 					<h2><a href="https://www.w3schools.com/default.asp" target="_blank">W3Schools</a></h2>
 					<p>Learn to Code with the World's Largest Developer Site. Tutorials, References, Exercises, Examples, Quizzes, Courses, Certificates. Learn: HTML, CSS, JavaScript, SQL, PHP, Python, jQuery, C++, C#, Bootstrap, Git...</p>
@@ -140,6 +143,7 @@
 					<h2><a href="https://www.heroku.com/" target="_blank">Heroku</a></h2>
 					<p>Heroku is a cloud-based, fully-managed platform as a service (Paas) for building, running, and managing apps. Developers, teams, and businesses of all sizes use Heroku to deploy, manage, and scale apps.</p>
 				</article>
+			</ul>
 			</main>			
 			<footer>
 				<p>&copy;DevDum! Code Smarter. Not Harder.<a rel="nofollow" href="https://github.com/rdevans87/DevDum" target="_blank" rel="nofollow">Hosted on GitHub!</a></p>
@@ -147,6 +151,24 @@
 		</section>
 	</div>
 </div>
+<script>
+	function myFunction() {
+		var input, filter, ul, li, a, i, txtValue;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		ul = document.getElementById("myUL");
+		article = ul.getElementsByTagName("article");
+		for (i = 0; i < article.length; i++) {
+			a = article[i].getElementsByTagName("a")[0];
+			txtValue = a.textContent || a.innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			  article[i].style.display = "";
+			} else {
+				article[i].style.display = "none";
+			}
+		}
+	}
+	</script>
 <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
 	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
