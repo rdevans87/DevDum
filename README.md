@@ -1,25 +1,29 @@
-# DEVDUM! ## CODE SMARTER. NOT HARDER. 
-<img alt=devdum href="DevDum copy (1).png"/>
+# DEVDUM! 
+## CODE SMARTER. NOT HARDER. 
+
+
+<img alt="devdum" title="devdum" src="DevDum copy (1).png" width="300px" />
  
 ## LESS SEARCHING MORE LEARNING WITH OVER 200+ HAND PICKED RESOURCES 
 ## FOR WEB DEVELOPERS...IT'S A NO BRAINER!
 
 ## TABLE OF CONTENTS
-*[LETTER FROM THE DEVELOPER](#Letterfromthedeveloper)
-*[What's in the App?](#what'sintheapp?)
-*[HTML](#html)
-*[CSS](#css)
-*[JAVASCRIPT](#javascript)
-*[BOOTSTRAP](#bootstrap)
-*[REACT](#react)
-*[NODEJS](#nodejs)
-*[API](#api)
-*[SQL](#sql)
-*[*GitHub](#github)
-*[YouTube](#youtube)
-*[More](#more)
-*[GET IN TOUCH](#getintouch)
-*[LICENSE](#license)
+
+* [LETTER FROM THE DEVELOPER](#Letterfromthedeveloper)
+* [What's in the App?](#what'sintheapp?)
+* [HTML](#html)
+* [CSS](#css)
+* [JAVASCRIPT](#javascript)
+* [BOOTSTRAP](#bootstrap)
+* [REACT](#react)
+* [NODEJS](#nodejs)
+* [API](#api)
+* [SQL](#sql)
+* [GITHUB](#github)
+* [YOUTUBE](#youtube)
+* [MORE](#more)
+* [GET IN TOUCH](#getintouch)
+* [LICENSE](#license)
 
 ### Summary
 
