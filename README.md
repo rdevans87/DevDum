@@ -1,4 +1,4 @@
-# DEVDUM! - CODE SMARTER. NOT HARDER.
+# DEVDUM! - Code Smarter. Not Harder.
 
 <img alt="devdum" title="devdum" src="DevDum copy (1).png" width="275px" />
 
@@ -34,12 +34,9 @@ Part of being a good developer is just knowing where to look, and having the rig
 Do your best to learn the fundamentals and understand the principles, but don't worry about being the smartest developer in the room. The dev community runs deep and there is a lot to explore. The best way to learn web devcelopment is by doing. DevDum! will save you countless hours searching the web, so you can focus on developing whatever crazy idea you've got in your head. Just remember the DevDum rule of thumb: Code Smarter Not Harder. 
 
 Take advantage of all the free & open source options available on the internet: code snippets, cheat sheets, static websites, even fully developed applications ready to deploy. You'll be surprised what you can find, and what's already been built for you to use. 
-
-DevDum contains all the resources needed for developing a fullstack web application. Hopefully, it saves you some of the headache along the way. If there's anything else you want to know, you'll have to find it on your own, but if you discover anything cool, please let me know about it! I'm always looking to add more resources to my development toolkit! 
-
- Give this repo a star and share if you like DevDum! Special thanks to all the developers, engineers, programmer, tech heads, awesome listers, open sourcers, and product hunters out there! 
-
  ## WHAT'S IN THE APP?
+
+DevDum contains all the resources needed for developing a fullstack web application. Hopefully, it saves you some of the headache along the way. If there's anything else you want to know, you'll have to find it on your own, but if you discover anything cool, please let me know about it! I'm always looking to add more resources to my development toolkit!
 
 
 <details>
@@ -97,11 +94,12 @@ Insert YOUTUBE Resources
 <br>
 Insert MORE Resources
 </details>
-
-
+ 
 ## GET IN TOUCH
-Check out my GitHub profile page for contact information: ![https://github.com/rdevans87](icons/icons8-github.png)
 
+Give this repo a ⭐ and share if you like [DevDum!](https://www.devdum.com}) Special thanks to all the developers, engineers, programmers, tech heads, awesome listers, open sourcers, and product hunters out there! give it a and also share it with
+
+Check out my GitHub profile page for contact information: ![https://github.com/rdevans87](icons/icons8-github.png)
 ## LICENSE
 
 MIT LICENSE ![MIT LICENSE](icons/icons8-certificate.png)
