@@ -448,7 +448,9 @@ a#list {
 
 a#list:hover{
   color: #0d6efd;
-
+}
+li { 
+  list-style-type: none;
 }
 #myUL {
   list-style-type: none;
