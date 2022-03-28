@@ -97,7 +97,7 @@ Insert MORE Resources
  
 ## GET IN TOUCH
 
-Give this repo a ⭐ and share if you like [DevDum!](https://www.devdum.com}) Special thanks to all the developers, engineers, programmers, tech heads, awesome listers, open sourcers, and product hunters out there! give it a and also share it with
+Give this repo a ⭐ and share if you like [DevDum!](https://www.devdum.com}) Special thanks to all the developers, engineers, programmers, tech heads, awesome listers, open sourcers, and product hunters out there! 
 
 Check out my GitHub profile page for contact information: ![https://github.com/rdevans87](icons/icons8-github.png)
 ## LICENSE
