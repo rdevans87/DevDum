@@ -1,15 +1,15 @@
-<img alt="devdum" title="devdum" src="assets/devdumheader.png" width="800px" />
+<img alt="devdum" title="devdum" src="assets/devdumheader.png" width="1000px" />
 
-<br>
+
 
 ## TABLE OF CONTENTS 
 
 * [COMMENTS](#comments)
-* [WHAT'S IN THE APP?](#whatsintheapp?)
+* [WHAT'S IN THE APP?](#whats-in-the-app)
 * [RESOURCES](#resources)    
-* [GET IN TOUCH](#getintouch)
+* [GET IN TOUCH](#get-in-touch)
 
-<br>
+
 
 ## COMMENTS
 
@@ -23,29 +23,28 @@ Do your best to learn the fundamentals and understand the principles, but don't 
 
 Take advantage of all the free & open source options available on the internet: code snippets, cheat sheets, static websites, even fully developed applications ready to deploy. You'll be surprised what you can find, and what's already been built for you to use. 
 
-<br>
+
 
  ## WHAT'S IN THE APP?
 
 [DevDum!](https://www.devdum.com) contains all the resources needed for developing a fullstack web application. Hopefully, it saves you some of the headache along the way. If there's anything else you want to know, you'll have to find it on your own, but if you discover anything cool, please let me know about it! I'm always looking to add more resources to my development toolkit!
-<br>
-
-<img title=DevDum! src="assets/devdum-fullpage.png">
 
 
-<br>
+<img title=DevDum! src="assets/devdum-fullpage.png" width="700px">
+
 
 
 ## RESOURCES
 
 <details>
 <summary>HTML</summary>
-<br>
-Insert HTML Resources
+ <p><a href="https://html-css-js.com/html/" target="_blank">Free HTML Tools and Resources: </a>Editor, Tag List, Cheat Sheet, Character Code, Markup Generator, Templates, & More...</p>
+
+
+
 </details>
-
-
-<details>
+ 
+ <details>
 <summary>CSS</summary>
 <br>
 Insert CSS Resources
