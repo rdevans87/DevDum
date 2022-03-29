@@ -1,27 +1,11 @@
-# DEVDUM! - Code Smarter. Not Harder.
-
-<img alt="devdum" title="devdum" src="DevDum copy (1).png" width="275px" />
-
-## LESS SEARCHING MORE LEARNING WITH OVER 200+ HAND PICKED RESOURCES FOR WEB DEVELOPERS...IT'S A NO BRAINER!
+<img alt="devdum" title="devdum" src="assets/devdumheader.png" width="800px" />
 
 
 ## TABLE OF CONTENTS 
 
 * [COMMENTS](#COMMENTS)
-* [WHAT'S IN THE APP?](#whats-in-the-app?)
-* [HTML](#html)
-* [CSS](#css)
-* [JAVASCRIPT](#javascript)
-* [BOOTSTRAP](#bootstrap)
-* [REACT](#react)
-* [NODEJS](#nodejs)
-* [API](#api)
-* [SQL](#sql)
-* [GITHUB](#github)
-* [YOUTUBE](#youtube)
-* [MORE](#more)
+* [WHAT'S IN THE APP?](#whats-in-the-app?)    
 * [GET IN TOUCH](#get-in-touch)
-* [LICENSE](#license)
 
 ## COMMENTS
 
@@ -44,36 +28,50 @@ DevDum contains all the resources needed for developing a fullstack web applicat
 <br>
 Insert HTML Resources
 </details>
+
+
 <details>
 <summary>CSS</summary>
 <br>
 Insert CSS Resources
 </details>
+
+
 <details>
 <summary>JAVASCRIPT</summary>
 <br>
 Insert JAVASCRIPT Resources
 </details>
+
+
 <details>
 <summary>BOOTSTRAP</summary>
 <br>
 Insert BOOTSTRAP Resources
 </details>
+
+
 <details>
 <summary>REACT</summary>
 <br>
 Insert REACTResources
 </details>
+
+
 <details>
 <summary>NODEJS</summary>
 <br>
 Insert NODEJS Resources
 </details>
+
+
 <details>
 <summary>API</summary>
 <br>
 Insert API Resources
 </details>
+
+
 <details>
 <summary>SQL</summary>
 <br>
@@ -100,8 +98,6 @@ Insert MORE Resources
 Give this repo a ⭐ and share if you like [DevDum!](https://www.devdum.com}) Special thanks to all the developers, engineers, programmers, tech heads, awesome listers, open sourcers, and product hunters out there! 
 
 Check out my GitHub profile page for contact information: ![https://github.com/rdevans87](icons/icons8-github.png)
-## LICENSE
-
-MIT LICENSE ![MIT LICENSE](icons/icons8-certificate.png)
+## MIT LICENSE ![MIT LICENSE](icons/icons8-certificate.png)
 
 
