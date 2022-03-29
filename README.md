@@ -1,11 +1,15 @@
 <img alt="devdum" title="devdum" src="assets/devdumheader.png" width="800px" />
 
+<br>
 
 ## TABLE OF CONTENTS 
 
-* [COMMENTS](#COMMENTS)
-* [WHAT'S IN THE APP?](#whats-in-the-app?)    
-* [GET IN TOUCH](#get-in-touch)
+* [COMMENTS](#comments)
+* [WHAT'S IN THE APP?](#whatsintheapp?)
+* [RESOURCES](#resources)    
+* [GET IN TOUCH](#getintouch)
+
+<br>
 
 ## COMMENTS
 
@@ -18,10 +22,21 @@ Part of being a good developer is just knowing where to look, and having the rig
 Do your best to learn the fundamentals and understand the principles, but don't worry about being the smartest developer in the room. The dev community runs deep and there is a lot to explore. The best way to learn web devcelopment is by doing. DevDum! will save you countless hours searching the web, so you can focus on developing whatever crazy idea you've got in your head. Just remember the DevDum rule of thumb: Code Smarter Not Harder. 
 
 Take advantage of all the free & open source options available on the internet: code snippets, cheat sheets, static websites, even fully developed applications ready to deploy. You'll be surprised what you can find, and what's already been built for you to use. 
+
+<br>
+
  ## WHAT'S IN THE APP?
 
-DevDum contains all the resources needed for developing a fullstack web application. Hopefully, it saves you some of the headache along the way. If there's anything else you want to know, you'll have to find it on your own, but if you discover anything cool, please let me know about it! I'm always looking to add more resources to my development toolkit!
+[DevDum!](https://www.devdum.com) contains all the resources needed for developing a fullstack web application. Hopefully, it saves you some of the headache along the way. If there's anything else you want to know, you'll have to find it on your own, but if you discover anything cool, please let me know about it! I'm always looking to add more resources to my development toolkit!
+<br>
 
+<img title=DevDum! src="assets/devdum-fullpage.png">
+
+
+<br>
+
+
+## RESOURCES
 
 <details>
 <summary>HTML</summary>
@@ -93,11 +108,17 @@ Insert YOUTUBE Resources
 Insert MORE Resources
 </details>
  
+ <br>
+
 ## GET IN TOUCH
 
-Give this repo a ⭐ and share if you like [DevDum!](https://www.devdum.com}) Special thanks to all the developers, engineers, programmers, tech heads, awesome listers, open sourcers, and product hunters out there! 
+Give this repo a ⭐ if you like [DevDum!](https://www.devdum.com}) Special thanks to all the developers, engineers, programmers, tech heads, awesome listers, open sourcers, and product hunters out there! 
 
-Check out my GitHub profile page for contact information: ![https://github.com/rdevans87](icons/icons8-github.png)
+Have a resource you'd like to share? Check out my GitHub profile page for contact information: ![https://github.com/rdevans87](icons/icons8-github.png)
+
+<br>
+<br>
+
 ## MIT LICENSE ![MIT LICENSE](icons/icons8-certificate.png)
 
 
