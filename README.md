@@ -33,7 +33,6 @@ Take advantage of all the free & open source options available on the internet: 
 <img title=DevDum! src="assets/devdum-fullpage.png" width="700px">
 
 
-
 ## RESOURCES
 
 <details>
