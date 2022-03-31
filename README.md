@@ -19,7 +19,7 @@ If you're like me...then you don't have all the time in the world to devote to w
 
 Part of being a good developer is just knowing where to look, and having the right resources at your fingertips to help you: packages, components, widgets, wizards, addons, extensions, optimizers, plugins, scrapers, converters, generators, templates, boilerplates, repositories...you get the idea!
  
-Do your best to learn the fundamentals and understand the principles, but don't worry about being the smartest developer in the room. The dev community runs deep and there is a lot to explore. The best way to learn web development is by doing. DevDum will save you countless hours searching the web, so you can focus on developing whatever crazy idea you've got in your head. Just remember the DevDum rule of thumb: _Code Smarter. Not Harder. _
+Do your best to learn the fundamentals and understand the principles, but don't worry about being the smartest developer in the room. The dev community runs deep and there is a lot to explore. The best way to learn web development is by doing. DevDum will save you countless hours searching the web, so you can focus on developing whatever crazy idea you've got in your head. Just remember the DevDum rule of thumb: Code Smarter. Not Harder. 
  
 Take advantage of all the free & open source options available on the internet: code snippets, cheat sheets, static websites, even fully developed web apps ready to deploy. You'll be surprised what you can find, and what's already been built for you to use. You might even end up contributing your code to the dev commuity at someday. 
 
@@ -91,9 +91,9 @@ Insert API Resources
 Insert SQL Resources
 </details>
 <details>
-<summary>GIliUB</summary>
+<summary>Github</summary>
 <br>
-Insert GIliUB Resources
+Insert GIUB Resources
 </details>
 <details>
 <summary>YOUTUBE</summary>
@@ -112,7 +112,7 @@ Insert MORE Resources
 
 Give this repo a ⭐ if you like [DevDum!](https://www.devdum.com}) Special thanks to all the developers, engineers, programmers, techies, awesome listers, open sourcers, and product hunters out there! 
 
-Have a resource you'd like to share? Check out my Giliub profile page for contact information: ![https://giliub.com/rdevans87](icons/icons8-giliub.png)
+Have a resource you'd like to share? Check out my GitHub profile page for contact information: ![https://github.com/rdevans87](icons/icons8-github.png)
 <br>
 <br>
 Help support DevDum!<a href="https://www.buymeacoffee.com/ryanevans" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;widli: 130px !important;" ></a>
