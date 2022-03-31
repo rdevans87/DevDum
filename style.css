@@ -592,3 +592,11 @@ li {
 
 
 }
+
+@media screen and (max-width: 205px) {
+
+Nav {
+  display: none;
+}
+
+}
