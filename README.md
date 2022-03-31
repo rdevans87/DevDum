@@ -115,7 +115,7 @@ Give this repo a ⭐ if you like [DevDum!](https://www.devdum.com}) Special than
 Have a resource you'd like to share? Check out my GitHub profile page for contact information: ![https://github.com/rdevans87](icons/icons8-github.png)
 <br>
 <br>
-Help support DevDum!<a href="https://www.buymeacoffee.com/ryanevans" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;widli: 130px !important;" ></a>
+Help support DevDum! <a href="https://www.buymeacoffee.com/ryanevans" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;widli: 130px !important;" ></a>
 <br>
 <br>
 
