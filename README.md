@@ -23,6 +23,7 @@ Do your best to learn the fundamentals and understand the principles, but don't 
  
 Take advantage of all the free & open source options available on the internet: code snippets, cheat sheets, static websites, even fully developed web apps ready to deploy. You'll be surprised what you can find, and what's already been built for you to use. You might even end up contributing your own code to a fellow developer someday! 
 
+
  ## WHAT'S IN THE BOX?
 
 
@@ -111,14 +112,17 @@ Insert MORE Resources
 ## GET IN TOUCH
 
 Give this repo a ⭐ if you like [DevDum!](https://www.devdum.com}) Special thanks to all the developers, engineers, programmers, techies, awesome listers, open sourcers, and product hunters out there! 
-
-Have a resource you'd like to share? Check out my GitHub profile page for contact information: ![https://github.com/rdevans87](icons/icons8-github.png)
+<br>
+<br>
+Have any resource you'd like to share? Check out my GitHub profile page for contact information:![https://github.com/rdevans87](icons/icons8-github.png)
 <br>
 <br>
 Help support DevDum! <a href="https://www.buymeacoffee.com/ryanevans" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;widli: 130px !important;" ></a>
 <br>
 <br>
-
+<a href="https://www.producthunt.com/posts/devdum-code-smarter-not-harder?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-devdum&#0045;code&#0045;smarter&#0045;not&#0045;harder" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=343032&theme=light" alt="DevDum&#0033;&#0032;Code&#0032;Smarter&#0046;&#0032;Not&#0032;Harder&#0046; - 200&#0043;&#0032;Resources&#0032;for&#0032;web&#0032;developers&#0046;&#0032;It&#0039;s&#0032;a&#0032;no&#0032;brainer&#0033; | Product Hunt" style="width: 130px; height: 30px;" width="250" height="54" /></a>
+<br>
+<br>
 ## MIT LICENSE ![MIT LICENSE](icons/icons8-certificate.png)
 
 
